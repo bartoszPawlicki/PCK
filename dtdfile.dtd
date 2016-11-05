@@ -1,0 +1,39 @@
+<!ELEMENT płytoteka (nagłówek, zbiór)>
+
+<!ELEMENT nagłówek (autor+, opis, dataAktualizacji)>
+<!ELEMENT autor (imię+, nazwisko+, nrIndeksu?)>
+<!ATTLIST autor id ID #REQUIRED>
+<!ELEMENT imię (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT nrIndeksu (#PCDATA)>
+<!ELEMENT opis (#PCDATA)>
+<!ELEMENT dataAktualizacji (#PCDATA)>
+
+
+<!ELEMENT zbiór (płyta*, wykonawcy)>
+<!ATTLIST zbiór nazwa NMTOKENS #IMPLIED>
+
+<!ELEMENT płyta (tytuł, wykonawca+, liczbaUtworów, dataWydania, cena, utwory)>
+<!ATTLIST płyta gatunek (rock | metalcore | metal | progressive-death-metal | punk-rock | rap | pop | hip-hop | niezdefiniowany) "niezdefiniowany">
+<!ELEMENT tytuł (#PCDATA)>
+<!ELEMENT wykonawca EMPTY>
+<!ATTLIST wykonawca idwykonawcy IDREF #REQUIRED>
+<!ELEMENT liczbaUtworów (#PCDATA)>
+<!ELEMENT dataWydania (#PCDATA)>
+<!ELEMENT cena (#PCDATA)>
+<!ATTLIST cena waluta (zł | euro | dolar) "zł" >
+
+<!ELEMENT utwory (lista)>
+<!ATTLIST utwory nazwa NMTOKENS #IMPLIED>
+<!ELEMENT lista (utwór+)>
+<!ELEMENT utwór (tytułUtworu, czasTrwania)>
+<!ATTLIST utwór codec (mp3 | flac | ogg) "mp3">
+<!ATTLIST utwór bitrate NMTOKEN "320">
+<!ELEMENT tytułUtworu (#PCDATA)>
+<!ELEMENT czasTrwania (#PCDATA)>
+
+
+
+<!ELEMENT wykonawcy (wyk*)>
+<!ELEMENT wyk (#PCDATA)>
+<!ATTLIST wyk idwykonawcy ID #REQUIRED>]>
