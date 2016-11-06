@@ -95,13 +95,18 @@
     </xs:complexType>
   </xs:element>
 
-  <xs:element name="autor">
-    <xs:complexType>
-      <xs:sequence>
+  <xs:group name="dane">
+	<xs:sequence>
         <xs:element ref="imię" />
         <xs:element ref="nazwisko" />
         <xs:element ref="nrIndeksu" />
       </xs:sequence>
+	</xs:group>
+	
+  
+  <xs:element name="autor">
+    <xs:complexType>
+      <xs:group ref="dane" />
       <xs:attribute name="id" type="xs:ID" use="required" />
     </xs:complexType>
   </xs:element>
