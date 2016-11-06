@@ -51,7 +51,6 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="płyta" />
-        <xs:element ref="wykonawcy" />
       </xs:sequence>
       <xs:attribute name="nazwa" type="xs:NMTOKENS" />
     </xs:complexType>
