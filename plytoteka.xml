@@ -6,245 +6,245 @@
 <płytoteka xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		   xsi:schemaLocation="http://tempuri.org/OurNamespace OurNamespace.xsd"
 		   xmlns="http://tempuri.org/OurNamespace">
-    
-    <nagłówek>
-        <autor id="a1"> 
-			<imię>Bartosz</imię> 
-			<nazwisko>Pawlicki</nazwisko>
-			<nrIndeksu>195678</nrIndeksu>
-		</autor>
-        <autor id="a2"> 
-			<imię>Piotr</imię> 
-			<nazwisko>Adryjańczyk</nazwisko>
-			<nrIndeksu>195555</nrIndeksu>
-		</autor>
-        <opis> Zadanie 2 - Dokument XML plus XML Schema </opis>
-        <dataAktualizacji> 2016-11-06 </dataAktualizacji>
-    </nagłówek>	
-	
-    <zbiór nazwa="ZBIÓR PŁYT">
-        <płyta>
-            <tytuł> L.A. Woman </tytuł>
-            <wykonawca></wykonawca>
-            <liczbaUtworów> 10 </liczbaUtworów>
-            <dataWydania> 1971-05-24 </dataWydania>
-            <cena waluta="zł">45</cena>
-            <gatunek>rock</gatunek>
-            <utwory nazwa= "Lista utworów">
-				<lista>			
-				<utwór codec="mp3" bitrate="320">
-					<tytułUtworu>The Changeling</tytułUtworu>
-					<czasTrwania>4:21</czasTrwania>
-				</utwór>
-                <utwór codec="mp3" bitrate="320">
-					<tytułUtworu>Love Her Madly</tytułUtworu>
-					<czasTrwania>3:20</czasTrwania>
-				</utwór>
-                <utwór codec="mp3" bitrate="320">
-					<tytułUtworu>Riders on the Storm</tytułUtworu>
-					<czasTrwania>7:09</czasTrwania>
-				</utwór>
-				</lista>
-			</utwory>
-        </płyta>
-        
-        <płyta>
-            <tytuł> The Poison </tytuł>
-            <wykonawca></wykonawca>
-            <liczbaUtworów> 13 </liczbaUtworów>
-            <dataWydania> 2005-10-03 </dataWydania>
-            <cena waluta="zł">33.33</cena>
-            <gatunek>metalcore</gatunek>
-            <utwory nazwa= "Lista utworów"> 
-				<lista>	
-				<utwór codec="flac" bitrate="320">
-					<tytułUtworu>4 Words (To Choke Upon)</tytułUtworu>
-					<czasTrwania>2:43</czasTrwania>
-				</utwór>
-                <utwór codec="flac" bitrate="320">
-					<tytułUtworu>Tears Don't Fall</tytułUtworu>
-					<czasTrwania>5:48</czasTrwania>
-				</utwór>
-                <utwór codec="flac" bitrate="320">
-					<tytułUtworu>All These Things I Hate</tytułUtworu>
-					<czasTrwania>3:45</czasTrwania>
-				</utwór>
-				</lista>
-			</utwory>
-        </płyta>
-        
-        <płyta>
-            <tytuł> VanillaHaj$ </tytuł>
-            <wykonawca></wykonawca>
-            <liczbaUtworów> 16 </liczbaUtworów>
-            <dataWydania> 2016-04-23 </dataWydania>
-            <cena waluta="zł">38</cena>
-            <gatunek>rap</gatunek>
-            <utwory nazwa= "Lista utworów"> 
-				<lista>	
-				<utwór codec="ogg" bitrate="320">
-					<tytułUtworu>Vanillalalahajs</tytułUtworu>
-					<czasTrwania>3:04</czasTrwania>
-				</utwór>
-                <utwór codec="ogg" bitrate="320">
-					<tytułUtworu>Vanilla Ice</tytułUtworu>
-					<czasTrwania>4:22</czasTrwania>
-				</utwór>
-                <utwór codec="ogg" bitrate="320">
-					<tytułUtworu>Dyskretny chłód 2</tytułUtworu>
-					<czasTrwania>3:56</czasTrwania>
-				</utwór>
-				</lista>
-			</utwory>
-        </płyta>
-        
-        <płyta>
-            <tytuł>Orchid</tytuł>
-            <wykonawca></wykonawca>
-            <liczbaUtworów> 7 </liczbaUtworów>
-            <dataWydania> 1995-05-01 </dataWydania>
-            <cena waluta="euro">29.99</cena>
-            <gatunek>progressive-death-metal</gatunek>
-            <utwory nazwa= "Lista utworów"> 
-				<lista>	
-				<utwór codec="mp3" bitrate="320">
-					<tytułUtworu>In Mist She Was Standing</tytułUtworu>
-					<czasTrwania>14:09</czasTrwania>
-				</utwór>
-                <utwór codec="mp3" bitrate="320">
-					<tytułUtworu>Under the Weeping Moon</tytułUtworu>
-					<czasTrwania>9:55</czasTrwania>
-				</utwór>
-                <utwór codec="mp3" bitrate="320">
-					<tytułUtworu>Silhouette</tytułUtworu>
-					<czasTrwania>3:04</czasTrwania>
-				</utwór>
-				</lista>
-			</utwory>
-        </płyta>
-        
-        <płyta>
-            <tytuł>Smash</tytuł>
-            <wykonawca></wykonawca>
-            <liczbaUtworów> 14 </liczbaUtworów>
-            <dataWydania> 1994-04-08 </dataWydania>
-            <cena waluta="zł">50.00</cena>
-            <gatunek>punk-rock</gatunek>
-            <utwory nazwa= "Lista utworów"> 
-				<lista>	
-				<utwór codec="mp3" bitrate="252">
-					<tytułUtworu>Self Esteem</tytułUtworu>
-					<czasTrwania>4:17</czasTrwania>
-				</utwór>
-               <utwór codec="mp3" bitrate="252">
-					<tytułUtworu>Come Out and Play</tytułUtworu>
-					<czasTrwania>3:17</czasTrwania>
-				</utwór>
-                <utwór codec="mp3" bitrate="252">
-					<tytułUtworu>Nitro (Youth Energy)</tytułUtworu>
-					<czasTrwania>2:27</czasTrwania>
-				</utwór>
-				</lista>
-			</utwory>
-        </płyta>
-        <płyta>
-            <tytuł>Americana</tytuł>
-            <wykonawca></wykonawca>
-            <liczbaUtworów> 13 </liczbaUtworów>
-            <dataWydania> 2005-01-08 </dataWydania>
-            <cena waluta="zł">25.00</cena>
-            <gatunek>punk-rock</gatunek>
-            <utwory nazwa= "Lista utworów"> 
-				<lista>	
-				<utwór codec="mp3" bitrate="320">
-					<tytułUtworu>Pretty Fly (for a White Guy)</tytułUtworu>
-					<czasTrwania>3:08</czasTrwania>
-				</utwór>
-               <utwór codec="mp3" bitrate="320">
-					<tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
-					<czasTrwania>3:00</czasTrwania>
-				</utwór>
-                <utwór codec="mp3" bitrate="320">
-					<tytułUtworu>Americana</tytułUtworu>
-					<czasTrwania>3:15</czasTrwania>
-				</utwór>
-				</lista>
-			</utwory>
-        </płyta>
-      <płyta>
-        <tytuł>Americana</tytuł>
-        <wykonawca></wykonawca>
-        <liczbaUtworów> 13 </liczbaUtworów>
-        <dataWydania> 2005-01-08 </dataWydania>
-        <cena waluta="zł">25.00</cena>
-        <gatunek>punk-rock</gatunek>
-        <utwory nazwa= "Lista utworów">
-          <lista>
-            <utwór codec="mp3" bitrate="320">
-              <tytułUtworu>Pretty Fly (for a White Guy)</tytułUtworu>
-              <czasTrwania>3:08</czasTrwania>
-            </utwór>
-            <utwór codec="mp3" bitrate="320">
-              <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
-              <czasTrwania>3:00</czasTrwania>
-            </utwór>
-            <utwór codec="mp3" bitrate="320">
-              <tytułUtworu>Americana</tytułUtworu>
-              <czasTrwania>3:15</czasTrwania>
-            </utwór>
-          </lista>
-        </utwory>
-      </płyta>
-      <płyta>
-        <tytuł>Americana</tytuł>
-        <wykonawca></wykonawca>
-        <liczbaUtworów> 13 </liczbaUtworów>
-        <dataWydania> 2005-01-08 </dataWydania>
-        <cena waluta="zł">25.00</cena>
-        <gatunek>punk-rock</gatunek>
-        <utwory nazwa= "Lista utworów">
-          <lista>
-            <utwór codec="mp3" bitrate="320">
-              <tytułUtworu>Pretty Fly (for a White Guy)</tytułUtworu>
-              <czasTrwania>3:08</czasTrwania>
-            </utwór>
-            <utwór codec="mp3" bitrate="320">
-              <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
-              <czasTrwania>3:00</czasTrwania>
-            </utwór>
-            <utwór codec="mp3" bitrate="320">
-              <tytułUtworu>Americana</tytułUtworu>
-              <czasTrwania>3:15</czasTrwania>
-            </utwór>
-          </lista>
-        </utwory>
-      </płyta>
-      <płyta>
-        <tytuł>Americana</tytuł>
-        <wykonawca></wykonawca>
-        <liczbaUtworów> 13 </liczbaUtworów>
-        <dataWydania> 2005-01-08 </dataWydania>
-        <cena waluta="zł">25.00</cena>
-        <gatunek>punk-rock</gatunek>
-        <utwory nazwa= "Lista utworów">
-          <lista>
-            <utwór codec="mp3" bitrate="320">
-              <tytułUtworu>Pretty Fly (for a White Guy)</tytułUtworu>
-              <czasTrwania>3:08</czasTrwania>
-            </utwór>
-            <utwór codec="mp3" bitrate="320">
-              <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
-              <czasTrwania>3:00</czasTrwania>
-            </utwór>
-            <utwór codec="mp3" bitrate="320">
-              <tytułUtworu>Americana</tytułUtworu>
-              <czasTrwania>3:15</czasTrwania>
-            </utwór>
-          </lista>
-        </utwory>
-      </płyta>
-    </zbiór>
-    
-    
-    
+
+  <nagłówek>
+    <autor id="a1">
+      <imię>Bartosz</imię>
+      <nazwisko>Pawlicki</nazwisko>
+      <nrIndeksu>195678</nrIndeksu>
+    </autor>
+    <autor id="a2">
+      <imię>Piotr</imię>
+      <nazwisko>Adryjańczyk</nazwisko>
+      <nrIndeksu>195555</nrIndeksu>
+    </autor>
+    <opis> Zadanie 2 - Dokument XML plus XML Schema </opis>
+    <dataAktualizacji> 2016-11-06 </dataAktualizacji>
+  </nagłówek>
+
+  <zbiór nazwa="ZBIÓR PŁYT">
+    <płyta>
+      <tytuł> L.A. Woman </tytuł>
+      <wykonawca></wykonawca>
+      <liczbaUtworów> 10 </liczbaUtworów>
+      <dataWydania> 1971-05-24 </dataWydania>
+      <cena waluta="zł">45</cena>
+      <gatunek>rock</gatunek>
+      <utwory nazwa= "Lista utworów">
+        <lista>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>The Changeling</tytułUtworu>
+            <czasTrwania>4:21</czasTrwania>
+          </utwór>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>Love Her Madly</tytułUtworu>
+            <czasTrwania>3:20</czasTrwania>
+          </utwór>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>Riders on the Storm</tytułUtworu>
+            <czasTrwania>7:09</czasTrwania>
+          </utwór>
+        </lista>
+      </utwory>
+    </płyta>
+
+    <płyta>
+      <tytuł> The Poison </tytuł>
+      <wykonawca></wykonawca>
+      <liczbaUtworów> 13 </liczbaUtworów>
+      <dataWydania> 2005-10-03 </dataWydania>
+      <cena waluta="zł">33.33</cena>
+      <gatunek>metalcore</gatunek>
+      <utwory nazwa= "Lista utworów">
+        <lista>
+          <utwór codec="flac" bitrate="320">
+            <tytułUtworu>4 Words (To Choke Upon)</tytułUtworu>
+            <czasTrwania>2:43</czasTrwania>
+          </utwór>
+          <utwór codec="flac" bitrate="320">
+            <tytułUtworu>Tears Don't Fall</tytułUtworu>
+            <czasTrwania>5:48</czasTrwania>
+          </utwór>
+          <utwór codec="flac" bitrate="320">
+            <tytułUtworu>All These Things I Hate</tytułUtworu>
+            <czasTrwania>3:45</czasTrwania>
+          </utwór>
+        </lista>
+      </utwory>
+    </płyta>
+
+    <płyta>
+      <tytuł> VanillaHaj$ </tytuł>
+      <wykonawca></wykonawca>
+      <liczbaUtworów> 16 </liczbaUtworów>
+      <dataWydania> 2016-04-23 </dataWydania>
+      <cena waluta="zł">38</cena>
+      <gatunek>rap</gatunek>
+      <utwory nazwa= "Lista utworów">
+        <lista>
+          <utwór codec="ogg" bitrate="320">
+            <tytułUtworu>Vanillalalahajs</tytułUtworu>
+            <czasTrwania>3:04</czasTrwania>
+          </utwór>
+          <utwór codec="ogg" bitrate="320">
+            <tytułUtworu>Vanilla Ice</tytułUtworu>
+            <czasTrwania>4:22</czasTrwania>
+          </utwór>
+          <utwór codec="ogg" bitrate="320">
+            <tytułUtworu>Dyskretny chłód 2</tytułUtworu>
+            <czasTrwania>3:56</czasTrwania>
+          </utwór>
+        </lista>
+      </utwory>
+    </płyta>
+
+    <płyta>
+      <tytuł>Orchid</tytuł>
+      <wykonawca></wykonawca>
+      <liczbaUtworów> 7 </liczbaUtworów>
+      <dataWydania> 1995-05-01 </dataWydania>
+      <cena waluta="euro">29.99</cena>
+      <gatunek>progressive-death-metal</gatunek>
+      <utwory nazwa= "Lista utworów">
+        <lista>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>In Mist She Was Standing</tytułUtworu>
+            <czasTrwania>14:09</czasTrwania>
+          </utwór>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>Under the Weeping Moon</tytułUtworu>
+            <czasTrwania>9:55</czasTrwania>
+          </utwór>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>Silhouette</tytułUtworu>
+            <czasTrwania>3:04</czasTrwania>
+          </utwór>
+        </lista>
+      </utwory>
+    </płyta>
+
+    <płyta>
+      <tytuł>Smash</tytuł>
+      <wykonawca></wykonawca>
+      <liczbaUtworów> 14 </liczbaUtworów>
+      <dataWydania> 1994-04-08 </dataWydania>
+      <cena waluta="zł">50.00</cena>
+      <gatunek>punk-rock</gatunek>
+      <utwory nazwa= "Lista utworów">
+        <lista>
+          <utwór codec="mp3" bitrate="252">
+            <tytułUtworu>Self Esteem</tytułUtworu>
+            <czasTrwania>4:17</czasTrwania>
+          </utwór>
+          <utwór codec="mp3" bitrate="252">
+            <tytułUtworu>Come Out and Play</tytułUtworu>
+            <czasTrwania>3:17</czasTrwania>
+          </utwór>
+          <utwór codec="mp3" bitrate="252">
+            <tytułUtworu>Nitro (Youth Energy)</tytułUtworu>
+            <czasTrwania>2:27</czasTrwania>
+          </utwór>
+        </lista>
+      </utwory>
+    </płyta>
+    <płyta>
+      <tytuł>Americana</tytuł>
+      <wykonawca></wykonawca>
+      <liczbaUtworów> 13 </liczbaUtworów>
+      <dataWydania> 2005-01-08 </dataWydania>
+      <cena waluta="zł">25.00</cena>
+      <gatunek>punk-rock</gatunek>
+      <utwory nazwa= "Lista utworów">
+        <lista>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>Pretty Fly (for a White Guy)</tytułUtworu>
+            <czasTrwania>3:08</czasTrwania>
+          </utwór>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
+            <czasTrwania>3:00</czasTrwania>
+          </utwór>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>Americana</tytułUtworu>
+            <czasTrwania>3:15</czasTrwania>
+          </utwór>
+        </lista>
+      </utwory>
+    </płyta>
+    <płyta>
+      <tytuł>Americana</tytuł>
+      <wykonawca></wykonawca>
+      <liczbaUtworów> 13 </liczbaUtworów>
+      <dataWydania> 2005-01-08 </dataWydania>
+      <cena waluta="zł">25.00</cena>
+      <gatunek>punk-rock</gatunek>
+      <utwory nazwa= "Lista utworów">
+        <lista>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>Pretty Fly (for a White Guy)</tytułUtworu>
+            <czasTrwania>3:08</czasTrwania>
+          </utwór>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
+            <czasTrwania>3:00</czasTrwania>
+          </utwór>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>Americana</tytułUtworu>
+            <czasTrwania>3:15</czasTrwania>
+          </utwór>
+        </lista>
+      </utwory>
+    </płyta>
+    <płyta>
+      <tytuł>Americana</tytuł>
+      <wykonawca></wykonawca>
+      <liczbaUtworów> 13 </liczbaUtworów>
+      <dataWydania> 2005-01-08 </dataWydania>
+      <cena waluta="zł">25.00</cena>
+      <gatunek>punk-rock</gatunek>
+      <utwory nazwa= "Lista utworów">
+        <lista>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>Pretty Fly (for a White Guy)</tytułUtworu>
+            <czasTrwania>3:08</czasTrwania>
+          </utwór>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
+            <czasTrwania>3:00</czasTrwania>
+          </utwór>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>Americana</tytułUtworu>
+            <czasTrwania>3:15</czasTrwania>
+          </utwór>
+        </lista>
+      </utwory>
+    </płyta>
+    <płyta>
+      <tytuł>Americana</tytuł>
+      <wykonawca></wykonawca>
+      <liczbaUtworów> 13 </liczbaUtworów>
+      <dataWydania> 2005-01-08 </dataWydania>
+      <cena waluta="zł">25.00</cena>
+      <gatunek>punk-rock</gatunek>
+      <utwory nazwa= "Lista utworów">
+        <lista>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>Pretty Fly (for a White Guy)</tytułUtworu>
+            <czasTrwania>3:08</czasTrwania>
+          </utwór>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
+            <czasTrwania>3:00</czasTrwania>
+          </utwór>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>Americana</tytułUtworu>
+            <czasTrwania>3:15</czasTrwania>
+          </utwór>
+        </lista>
+      </utwory>
+    </płyta>
+  </zbiór>
+
+
+
 </płytoteka>

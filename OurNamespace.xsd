@@ -49,8 +49,8 @@
 
   <xs:element name="nazwisko" type="xs:string" />
 
-  <xs:element name="nrIndeksu" type="xs:unsignedInt" />
-
+  <xs:element name="nrIndeksu" type="xs:unsignedInt"/>
+  
   <xs:element name="opis" type="xs:string" />
 
   <xs:element name="dataAktualizacji" type="xs:date" />
@@ -83,6 +83,16 @@
         <xs:element ref="zbiór" />
       </xs:sequence>
     </xs:complexType>
+    
+    <xs:key name="nrIndeksuKey">
+      <xs:selector xpath="nagłówek/*"/>
+      <xs:field xpath="nrIndeksu"/>
+    </xs:key>
+    
+    <xs:unique name="uniqTytułPłyty">
+      <xs:selector xpath="zbiór/*"/>
+      <xs:field xpath="tytuł"/>
+    </xs:unique>
   </xs:element>
 
   <xs:element name="nagłówek">
@@ -168,5 +178,4 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-
 </xs:schema>
