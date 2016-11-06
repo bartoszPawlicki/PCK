@@ -25,7 +25,7 @@
     <zbiór nazwa="ZBIÓR PŁYT">
         <płyta>
             <tytuł> L.A. Woman </tytuł>
-            <wykonawca idwykonawcy="w0"></wykonawca>
+            <wykonawca></wykonawca>
             <liczbaUtworów> 10 </liczbaUtworów>
             <dataWydania> 1971-05-24 </dataWydania>
             <cena waluta="zł">45</cena>
@@ -50,7 +50,7 @@
         
         <płyta>
             <tytuł> The Poison </tytuł>
-            <wykonawca idwykonawcy="w1"></wykonawca>
+            <wykonawca></wykonawca>
             <liczbaUtworów> 13 </liczbaUtworów>
             <dataWydania> 2005-10-03 </dataWydania>
             <cena waluta="zł">33.33</cena>
@@ -59,7 +59,7 @@
 				<lista>	
 				<utwór codec="flac" bitrate="320">
 					<tytułUtworu>4 Words (To Choke Upon)</tytułUtworu>
-					<czasTrwania>3:43</czasTrwania>
+					<czasTrwania>2:43</czasTrwania>
 				</utwór>
                 <utwór codec="flac" bitrate="320">
 					<tytułUtworu>Tears Don't Fall</tytułUtworu>
@@ -75,7 +75,7 @@
         
         <płyta>
             <tytuł> VanillaHaj$ </tytuł>
-            <wykonawca idwykonawcy="w2"></wykonawca>
+            <wykonawca></wykonawca>
             <liczbaUtworów> 16 </liczbaUtworów>
             <dataWydania> 2016-04-23 </dataWydania>
             <cena waluta="zł">38</cena>
@@ -100,7 +100,7 @@
         
         <płyta>
             <tytuł>Orchid</tytuł>
-            <wykonawca idwykonawcy="w3"></wykonawca>
+            <wykonawca></wykonawca>
             <liczbaUtworów> 7 </liczbaUtworów>
             <dataWydania> 1995-05-01 </dataWydania>
             <cena waluta="euro">29.99</cena>
@@ -125,7 +125,7 @@
         
         <płyta>
             <tytuł>Smash</tytuł>
-            <wykonawca idwykonawcy="w4"></wykonawca>
+            <wykonawca></wykonawca>
             <liczbaUtworów> 14 </liczbaUtworów>
             <dataWydania> 1994-04-08 </dataWydania>
             <cena waluta="zł">50.00</cena>
@@ -149,7 +149,7 @@
         </płyta>
         <płyta>
             <tytuł>Americana</tytuł>
-            <wykonawca idwykonawcy="w4"></wykonawca>
+            <wykonawca></wykonawca>
             <liczbaUtworów> 13 </liczbaUtworów>
             <dataWydania> 2005-01-08 </dataWydania>
             <cena waluta="zł">25.00</cena>
@@ -173,7 +173,7 @@
         </płyta>
       <płyta>
         <tytuł>Americana</tytuł>
-        <wykonawca idwykonawcy="w4"></wykonawca>
+        <wykonawca></wykonawca>
         <liczbaUtworów> 13 </liczbaUtworów>
         <dataWydania> 2005-01-08 </dataWydania>
         <cena waluta="zł">25.00</cena>
@@ -197,7 +197,7 @@
       </płyta>
       <płyta>
         <tytuł>Americana</tytuł>
-        <wykonawca idwykonawcy="w4"></wykonawca>
+        <wykonawca></wykonawca>
         <liczbaUtworów> 13 </liczbaUtworów>
         <dataWydania> 2005-01-08 </dataWydania>
         <cena waluta="zł">25.00</cena>
@@ -221,7 +221,7 @@
       </płyta>
       <płyta>
         <tytuł>Americana</tytuł>
-        <wykonawca idwykonawcy="w4"></wykonawca>
+        <wykonawca></wykonawca>
         <liczbaUtworów> 13 </liczbaUtworów>
         <dataWydania> 2005-01-08 </dataWydania>
         <cena waluta="zł">25.00</cena>

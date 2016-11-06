@@ -76,7 +76,7 @@ utwory::after {
 lista {
     width: 15%;
     display: none;
-    position: fixed;
+    position: absolute;
     background-color: #904545;
     border-style: dashed;
     border-width: 1px;

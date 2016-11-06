@@ -1,6 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns="http://tempuri.org/OurNamespace" elementFormDefault="qualified" targetNamespace="http://tempuri.org/OurNamespace" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
+  <xs:element name="tytułUtworu" type="xs:string" />
+
+  <xs:element name="czasTrwania">
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:pattern value="\d{1,2}:\d{2}"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="cena">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="cenaWartość">
+          <xs:attribute name="waluta" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:NMTOKEN">
+                <xs:enumeration value="zł" />
+                <xs:enumeration value="euro" />
+                <xs:enumeration value="dolar" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="gatunek">
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="rock" />
+        <xs:enumeration value="metalcore" />
+        <xs:enumeration value="metal" />
+        <xs:enumeration value="progressive-death-metal" />
+        <xs:enumeration value="punk-rock" />
+        <xs:enumeration value="rap" />
+        <xs:enumeration value="pop" />
+        <xs:enumeration value="hip-hop" />
+        <xs:enumeration value="inny" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="imię" type="xs:string" />
+
+  <xs:element name="nazwisko" type="xs:string" />
+
+  <xs:element name="nrIndeksu" type="xs:unsignedInt" />
+
+  <xs:element name="opis" type="xs:string" />
+
+  <xs:element name="dataAktualizacji" type="xs:date" />
+  
+  <xs:element name="dataWydania" type="xs:date" />
+
+  <xs:element name="liczbaUtworów">
+    <xs:simpleType>
+      <xs:restriction base="xs:decimal">
+        <xs:maxInclusive value="50"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  
+  <xs:element name="tytuł">
+    <xs:simpleType>
+      <xs:restriction base="xs:normalizedString">
+        <xs:minLength value="2"/>
+        <xs:maxLength value="25"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="wykonawca" type="xs:string" />
+
   <xs:element name="płytoteka">
     <xs:complexType>
       <xs:sequence>
@@ -37,15 +112,13 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <xs:element name="imię" type="xs:string" />
-
-  <xs:element name="nazwisko" type="xs:string" />
-
-  <xs:element name="nrIndeksu" type="xs:string" />
-
-  <xs:element name="opis" type="xs:string" />
-
-  <xs:element name="dataAktualizacji" type="xs:string" />
+  <xs:element name="lista">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="utwór" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 
   <xs:element name="zbiór">
     <xs:complexType>
@@ -56,45 +129,34 @@
     </xs:complexType>
   </xs:element>
 
+  <xs:element name="utwór">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tytułUtworu" />
+        <xs:element ref="czasTrwania" />
+      </xs:sequence>
+      <xs:attribute default="mp3" name="codec" use="optional">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="mp3" />
+            <xs:enumeration value="flac" />
+            <xs:enumeration value="ogg" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute default="320" name="bitrate" type="xs:short" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+
   <xs:element name="płyta">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="tytuł"  type="xs:string"/>
-        <xs:element minOccurs="1" maxOccurs="unbounded" name="wykonawca" />
-        <xs:element name="liczbaUtworów" type="xs:integer" />
-        <xs:element name="dataWydania"  type="xs:date"/>
-        <xs:element name="cena">
-          <xs:complexType>
-            <xs:simpleContent>
-              <xs:extension base="cenaWartość">
-                <xs:attribute name="waluta" use="required">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:NMTOKEN">
-                      <xs:enumeration value="zł" />
-                      <xs:enumeration value="euro" />
-                      <xs:enumeration value="dolar" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:attribute>
-              </xs:extension>
-            </xs:simpleContent>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="gatunek">
-          <xs:simpleType>
-            <xs:restriction base="xs:token">
-              <xs:enumeration value="rock" />
-              <xs:enumeration value="metalcore" />
-              <xs:enumeration value="metal" />
-              <xs:enumeration value="progressive-death-metal" />
-              <xs:enumeration value="punk-rock" />
-              <xs:enumeration value="rap" />
-              <xs:enumeration value="pop" />
-              <xs:enumeration value="hip-hop" />
-              <xs:enumeration value="inny" />
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:element>
+        <xs:element ref="tytuł" />
+        <xs:element minOccurs="1" maxOccurs="2" ref="wykonawca" />
+        <xs:element ref="liczbaUtworów" />
+        <xs:element ref="dataWydania"/>
+        <xs:element ref="cena"/>
+        <xs:element ref="gatunek"/>
         <xs:element name="utwory">
           <xs:complexType>
             <xs:sequence>
@@ -107,35 +169,4 @@
     </xs:complexType>
   </xs:element>
 
-
-  <xs:element name="lista">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="1" maxOccurs="unbounded" ref="utwór" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-
-  <xs:element name="utwór">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element ref="tytułUtworu" />
-        <xs:element ref="czasTrwania" />
-      </xs:sequence>
-      <xs:attribute default="mp3" name="codec">
-        <xs:simpleType>
-          <xs:restriction base="xs:NMTOKEN">
-            <xs:enumeration value="mp3" />
-            <xs:enumeration value="flac" />
-            <xs:enumeration value="ogg" />
-          </xs:restriction>
-        </xs:simpleType>
-      </xs:attribute>
-      <xs:attribute default="320" name="bitrate" type="xs:NMTOKEN" />
-    </xs:complexType>
-  </xs:element>
-
-  <xs:element name="tytułUtworu" type="xs:string" />
-
-  <xs:element name="czasTrwania" type="xs:string" />
 </xs:schema>
