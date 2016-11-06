@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns="http://tempuri.org/xsdfile" elementFormDefault="qualified" targetNamespace="http://tempuri.org/xsdfile" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns="http://tempuri.org/dtdfile" elementFormDefault="qualified" targetNamespace="http://tempuri.org/dtdfile" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="płytoteka">
     <xs:complexType>
       <xs:sequence>

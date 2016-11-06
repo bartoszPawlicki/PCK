@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!-- <!DOCTYPE płytoteka SYSTEM "dtdfile.dtd"> /!-->
+
 <?xml-stylesheet type="text/css" href="style.css" ?>
 
-<płytoteka xmlns="http://www.w3schools.com"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://www.w3schools.com xsdfile.xsd">
+<on:Płytoteka xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="http://tempuri.org/OurNamespace OurNamespace.xsd"
+		   xmlns:on="http://tempuri.org/OurNamespace">
     
     <nagłówek>
         <autor id="a1"> 
