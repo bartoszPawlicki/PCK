@@ -45,11 +45,30 @@
     </xs:simpleType>
   </xs:element>
 
-  <xs:element name="imię" type="xs:string" />
+  <xs:element name="imię">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="20"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
 
-  <xs:element name="nazwisko" type="xs:string" />
+  <xs:element name="nazwisko">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="[A-Ż][a-ż]{0,20}(-[A-Ż][a-ż]{0,20})?"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
 
-  <xs:element name="nrIndeksu" type="xs:unsignedInt"/>
+  <xs:element name="nrIndeksu">
+    <xs:simpleType>
+      <xs:restriction base="xs:unsignedInt">
+        <xs:minInclusive value="111111"/>
+        <xs:maxInclusive value="999999"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
   
   <xs:element name="opis" type="xs:string" />
 
