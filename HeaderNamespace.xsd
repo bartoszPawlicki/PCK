@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/HeaderNamespace" 
+			elementFormDefault="qualified" 
+			targetNamespace="http://tempuri.org/HeaderNamespace" 
+			xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:ntn="http://tempuri.org/NumericalTypesNamespace" >
+
+  <xs:import schemaLocation="NumericalTypesNamespace.xsd"
+               namespace="http://tempuri.org/NumericalTypesNamespace" />
+			
+  <xs:element name="nagłówek">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="2" maxOccurs="2" ref="autor" />
+        <xs:element ref="opis" />
+        <xs:element ref="dataAktualizacji" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="opis" type="xs:string" />
+
+  <xs:element name="dataAktualizacji" type="xs:date" />
+
+  <xs:group name="dane">
+    <xs:sequence>
+      <xs:element ref="imię" />
+      <xs:element ref="nazwisko" />
+      <xs:element ref="ntn:nrIndeksu" />
+    </xs:sequence>
+  </xs:group>
+
+  <xs:element name="autor">
+    <xs:complexType>
+      <xs:group ref="dane" />
+      <xs:attribute name="id" type="xs:ID" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="imię">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="20"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="nazwisko">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="[A-Ż][a-ż]{0,20}(-[A-Ż][a-ż]{0,20})?"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+</xs:schema>

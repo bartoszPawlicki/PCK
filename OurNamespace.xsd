@@ -1,34 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns="http://tempuri.org/OurNamespace" elementFormDefault="qualified" targetNamespace="http://tempuri.org/OurNamespace" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
+<xs:schema xmlns="http://tempuri.org/OurNamespace" 
+			elementFormDefault="qualified" 
+			targetNamespace="http://tempuri.org/OurNamespace" 
+			xmlns:xs="http://www.w3.org/2001/XMLSchema"
+			xmlns:hn="http://tempuri.org/HeaderNamespace" 
+      xmlns:ntn="http://tempuri.org/NumericalTypesNamespace" >
+  
+  <xs:import schemaLocation="HeaderNamespace.xsd"
+               namespace="http://tempuri.org/HeaderNamespace" />
+  <xs:import schemaLocation="NumericalTypesNamespace.xsd"
+               namespace="http://tempuri.org/NumericalTypesNamespace" />
+  
   <xs:element name="tytułUtworu" type="xs:string" />
-
-  <xs:element name="czasTrwania">
-    <xs:simpleType>
-      <xs:restriction base="xs:token">
-        <xs:pattern value="\d{1,2}:\d{2}"/>
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:element>
-
-  <xs:element name="cena">
-    <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="cenaWartość">
-          <xs:attribute name="waluta" use="required">
-            <xs:simpleType>
-              <xs:restriction base="xs:NMTOKEN">
-                <xs:enumeration value="zł" />
-                <xs:enumeration value="euro" />
-                <xs:enumeration value="dolar" />
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:attribute>
-        </xs:extension>
-      </xs:simpleContent>
-    </xs:complexType>
-  </xs:element>
-
+  
   <xs:element name="gatunek">
     <xs:simpleType>
       <xs:restriction base="xs:token">
@@ -45,44 +29,8 @@
     </xs:simpleType>
   </xs:element>
 
-  <xs:element name="imię">
-    <xs:simpleType>
-      <xs:restriction base="xs:string">
-        <xs:maxLength value="20"/>
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:element>
-
-  <xs:element name="nazwisko">
-    <xs:simpleType>
-      <xs:restriction base="xs:string">
-        <xs:pattern value="[A-Ż][a-ż]{0,20}(-[A-Ż][a-ż]{0,20})?"/>
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:element>
-
-  <xs:element name="nrIndeksu">
-    <xs:simpleType>
-      <xs:restriction base="xs:unsignedInt">
-        <xs:minInclusive value="111111"/>
-        <xs:maxInclusive value="999999"/>
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:element>
-  
-  <xs:element name="opis" type="xs:string" />
-
-  <xs:element name="dataAktualizacji" type="xs:date" />
   
   <xs:element name="dataWydania" type="xs:date" />
-
-  <xs:element name="liczbaUtworów">
-    <xs:simpleType>
-      <xs:restriction base="xs:decimal">
-        <xs:maxInclusive value="50"/>
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:element>
   
   <xs:element name="tytuł">
     <xs:simpleType>
@@ -98,7 +46,7 @@
   <xs:element name="płytoteka">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="nagłówek" />
+        <xs:element ref="hn:nagłówek" />
         <xs:element ref="zbiór" />
       </xs:sequence>
     </xs:complexType>
@@ -113,38 +61,6 @@
       <xs:field xpath="tytuł"/>
     </xs:unique>
   </xs:element>
-
-  <xs:element name="nagłówek">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="2" maxOccurs="2" ref="autor" />
-        <xs:element ref="opis" />
-        <xs:element ref="dataAktualizacji" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-
-  <xs:group name="dane">
-	<xs:sequence>
-        <xs:element ref="imię" />
-        <xs:element ref="nazwisko" />
-        <xs:element ref="nrIndeksu" />
-      </xs:sequence>
-	</xs:group>
-	
-  
-  <xs:element name="autor">
-    <xs:complexType>
-      <xs:group ref="dane" />
-      <xs:attribute name="id" type="xs:ID" use="required" />
-    </xs:complexType>
-  </xs:element>
-
-  <xs:simpleType name="cenaWartość">
-    <xs:restriction base="xs:decimal">
-      <xs:fractionDigits value="2" />
-    </xs:restriction>
-  </xs:simpleType>
 
   <xs:element name="lista">
     <xs:complexType>
@@ -167,7 +83,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element ref="tytułUtworu" />
-        <xs:element ref="czasTrwania" />
+        <xs:element ref="ntn:czasTrwania" />
       </xs:sequence>
       <xs:attribute default="mp3" name="codec" use="optional">
         <xs:simpleType>
@@ -187,9 +103,9 @@
       <xs:sequence>
         <xs:element ref="tytuł" />
         <xs:element minOccurs="1" maxOccurs="2" ref="wykonawca" />
-        <xs:element ref="liczbaUtworów" />
+        <xs:element ref="ntn:liczbaUtworów" />
         <xs:element ref="dataWydania"/>
-        <xs:element ref="cena"/>
+        <xs:element ref="ntn:cena"/>
         <xs:element ref="gatunek"/>
         <xs:element name="utwory">
           <xs:complexType>
