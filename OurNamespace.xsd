@@ -10,8 +10,14 @@
                namespace="http://tempuri.org/HeaderNamespace" />
   <xs:import schemaLocation="NumericalTypesNamespace.xsd"
                namespace="http://tempuri.org/NumericalTypesNamespace" />
-  
-  <xs:element name="tytułUtworu" type="xs:string" />
+
+  <xs:element name="tytułUtworu">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="30"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
   
   <xs:element name="gatunek">
     <xs:simpleType>
@@ -52,14 +58,14 @@
     </xs:complexType>
     
     <xs:key name="nrIndeksuKey">
-      <xs:selector xpath="nagłówek/*"/>
-      <xs:field xpath="nrIndeksu"/>
+      <xs:selector xpath="nagłówek/autor"/>
+      <xs:field xpath="@nrIndeksu"/>
     </xs:key>
-    
-    <xs:unique name="uniqTytułPłyty">
-      <xs:selector xpath="zbiór/*"/>
-      <xs:field xpath="tytuł"/>
-    </xs:unique>
+
+    <xs:keyref name="IndeksKeyRef" refer="nrIndeksuKey">
+      <xs:selector xpath="nagłówek/autor"/>
+      <xs:field xpath="@nrIndeksu"/>
+    </xs:keyref>
   </xs:element>
 
   <xs:element name="lista">
