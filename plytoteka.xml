@@ -27,7 +27,7 @@
   <zbiór nazwa="ZBIÓR PŁYT">
     <płyta>
       <tytuł> L.A. Woman </tytuł>
-      <wykonawca></wykonawca>
+      <wykonawca>The Doors</wykonawca>
       <ntn:liczbaUtworów> 10 </ntn:liczbaUtworów>
       <dataWydania> 1971-05-24 </dataWydania>
       <ntn:cena waluta="zł">45</ntn:cena>
@@ -52,7 +52,7 @@
 
     <płyta>
       <tytuł> The Poison </tytuł>
-      <wykonawca></wykonawca>
+      <wykonawca>Bullet For My Valentine</wykonawca>
       <ntn:liczbaUtworów> 13 </ntn:liczbaUtworów>
       <dataWydania> 2005-10-03 </dataWydania>
       <ntn:cena waluta="zł">33.33</ntn:cena>
@@ -102,7 +102,7 @@
 
     <płyta>
       <tytuł>Orchid</tytuł>
-      <wykonawca></wykonawca>
+      <wykonawca>Opeth</wykonawca>
       <ntn:liczbaUtworów> 7 </ntn:liczbaUtworów>
       <dataWydania> 1995-05-01 </dataWydania>
       <ntn:cena waluta="euro">29.99</ntn:cena>
@@ -127,7 +127,7 @@
 
     <płyta>
       <tytuł>Smash</tytuł>
-      <wykonawca></wykonawca>
+      <wykonawca>The Offspring</wykonawca>
       <ntn:liczbaUtworów> 14 </ntn:liczbaUtworów>
       <dataWydania> 1994-04-08 </dataWydania>
       <ntn:cena waluta="zł">50.00</ntn:cena>
@@ -151,7 +151,7 @@
     </płyta>
     <płyta>
       <tytuł>Americana</tytuł>
-      <wykonawca></wykonawca>
+      <wykonawca>The Offspring</wykonawca>
       <ntn:liczbaUtworów> 13 </ntn:liczbaUtworów>
       <dataWydania> 2005-01-08 </dataWydania>
       <ntn:cena waluta="zł">25.00</ntn:cena>
@@ -175,7 +175,7 @@
     </płyta>
     <płyta>
       <tytuł>Americana</tytuł>
-      <wykonawca></wykonawca>
+      <wykonawca>The Offspring</wykonawca>
       <ntn:liczbaUtworów> 13 </ntn:liczbaUtworów>
       <dataWydania> 2005-01-08 </dataWydania>
       <ntn:cena waluta="zł">25.00</ntn:cena>
@@ -199,7 +199,7 @@
     </płyta>
     <płyta>
       <tytuł>Americana</tytuł>
-      <wykonawca></wykonawca>
+      <wykonawca>The Offspring</wykonawca>
       <ntn:liczbaUtworów> 13 </ntn:liczbaUtworów>
       <dataWydania> 2005-01-08 </dataWydania>
       <ntn:cena waluta="zł">25.00</ntn:cena>
@@ -223,7 +223,7 @@
     </płyta>
     <płyta>
       <tytuł>Americana</tytuł>
-      <wykonawca></wykonawca>
+      <wykonawca>The Offspring</wykonawca>
       <ntn:liczbaUtworów> 13 </ntn:liczbaUtworów>
       <dataWydania> 2005-01-08 </dataWydania>
       <ntn:cena waluta="zł">25.00</ntn:cena>
