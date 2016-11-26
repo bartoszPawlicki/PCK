@@ -44,13 +44,15 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <xs:element name="nrIndeksu">
-    <xs:simpleType>
+  <xs:element name="nrIndeksu" type="nrIndeksuType">
+    
+  </xs:element>
+  
+  <xs:simpleType name="nrIndeksuType">
       <xs:restriction base="xs:unsignedInt">
         <xs:minInclusive value="111111"/>
         <xs:maxInclusive value="999999"/>
       </xs:restriction>
     </xs:simpleType>
-  </xs:element>
 
 </xs:schema>

@@ -14,6 +14,10 @@
         <xs:element minOccurs="2" maxOccurs="2" ref="autor" />
         <xs:element ref="opis" />
         <xs:element ref="dataAktualizacji" />
+		
+		<xs:element name="klucz" type="ntn:nrIndeksuType"/>
+		
+		
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -52,5 +56,7 @@
       </xs:restriction>
     </xs:simpleType>
   </xs:element>
+  
+  
 
 </xs:schema>

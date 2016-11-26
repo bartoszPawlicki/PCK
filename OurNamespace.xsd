@@ -58,13 +58,13 @@
     </xs:complexType>
     
     <xs:key name="nrIndeksuKey">
-      <xs:selector xpath="nagłówek/autor"/>
-      <xs:field xpath="@nrIndeksu"/>
+      <xs:selector xpath="hn:nagłówek/hn:autor"/>
+      <xs:field xpath="ntn:nrIndeksu"/>
     </xs:key>
 
     <xs:keyref name="IndeksKeyRef" refer="nrIndeksuKey">
-      <xs:selector xpath="nagłówek/autor"/>
-      <xs:field xpath="@nrIndeksu"/>
+      <xs:selector xpath="hn:nagłówek"/>
+      <xs:field xpath="hn:klucz"/>
     </xs:keyref>
   </xs:element>
 
