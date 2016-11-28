@@ -40,6 +40,7 @@
 
   <xs:simpleType name="cenaWartość">
     <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0" />
       <xs:fractionDigits value="2" />
     </xs:restriction>
   </xs:simpleType>
