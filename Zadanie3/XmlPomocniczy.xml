@@ -80,16 +80,16 @@
           Łączna liczba gatunków: 5.
         </liczbaGatunków>
       <łącznaCenaPłyt>
-          Łączna cena wszystkich płyt: 266.33 PLN.
+          Łączna cena wszystkich płyt: 266.33 ZŁ.
         </łącznaCenaPłyt>
       <VAT>
-          W tym VAT: 61.2559 (przy stawce 23%).
+          VAT (od całości) 23%: 61.2559.
         </VAT>
       <łącznaIlośćPłyt>
-          Łączna ilość wszystkich płyt: 9 egzemplarzy.
+          Łączna ilość wszystkich płyt: 9.
         </łącznaIlośćPłyt>
       <dataWygenerowania>
-          Data wygenerowania raportu: 2016-12-11T21:51:47.529Z.
+          Data wygenerowania raportu: 2016-12-11T23:46:01.258Z.
         </dataWygenerowania>
    </podsumowanie>
 </dokumentPomocniczy>

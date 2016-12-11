@@ -21,7 +21,7 @@ xmlns:default="http://tempuri.org/OurNamespace"
           Łączna cena wszystkich płyt: <xsl:value-of select="$łącznaCena"/> ZŁ.
         </łącznaCenaPłyt>
         <VAT>
-          W tym VAT (23%): <xsl:value-of select="$łącznaCena * 0.23 "/>.
+          VAT (od całości) 23%: <xsl:value-of select="$łącznaCena * 0.23 "/>.
         </VAT>
         <łącznaIlośćPłyt>
           Łączna ilość wszystkich płyt: <xsl:value-of select="$ilośćPłyt"/>.
@@ -31,14 +31,6 @@ xmlns:default="http://tempuri.org/OurNamespace"
         </dataWygenerowania>
       </podsumowanie>
   </dokumentPomocniczy>
-</xsl:template>
-
-<xsl:template match="default:płyta">
-  <p>
-  <xsl:apply-templates select="default:tytuł"/>
-  <xsl:apply-templates select="default:wykonawca"/>
-  <xsl:apply-templates select="ntn:cena"/>
-  </p>
 </xsl:template>
 
   <xsl:template match="default:zbiór">

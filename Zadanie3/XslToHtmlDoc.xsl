@@ -13,7 +13,7 @@
         <title>Płytoteka</title>
     </head>
       <body>
-        <h1>Zbiór płyt</h1>
+        <h1>Spis płyt</h1>
         <xsl:apply-templates select="//spisPłyt"/>
         <h1>Podsumowanie</h1>
         <xsl:apply-templates select="//podsumowanie"/>
