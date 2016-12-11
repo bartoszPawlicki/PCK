@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-xmlns="http://tempuri.org/OurNamespace"
 xmlns:default="http://tempuri.org/OurNamespace"
        xmlns:hn="http://tempuri.org/HeaderNamespace"
        xmlns:ntn="http://tempuri.org/NumericalTypehnamespace">
@@ -19,17 +18,17 @@ xmlns:default="http://tempuri.org/OurNamespace"
         <xsl:variable name="łącznaCena" select="sum(//default:zbiór/default:płyta/ntn:cena[@waluta = 'zł'])" />
         <xsl:variable name="ilośćPłyt" select="count(//default:zbiór/default:płyta)" />
         <łącznaCenaPłyt>
-          Łączna cena wszystkich płyt: <xsl:value-of select="$łącznaCena"/> PLN.
+          Łączna cena wszystkich płyt: <xsl:value-of select="$łącznaCena"/> ZŁ.
         </łącznaCenaPłyt>
         <VAT>
-          W tym VAT: <xsl:value-of select="$łącznaCena * 0.23 "/> (przy stawce 23%).
+          W tym VAT (23%): <xsl:value-of select="$łącznaCena * 0.23 "/>.
         </VAT>
         <łącznaIlośćPłyt>
-          Łączna ilość wszystkich płyt: <xsl:value-of select="$ilośćPłyt"/> egzemplarzy.
+          Łączna ilość wszystkich płyt: <xsl:value-of select="$ilośćPłyt"/>.
         </łącznaIlośćPłyt>
-        <data>
+        <dataWygenerowania>
           Data wygenerowania raportu: <xsl:value-of  select="current-dateTime()"/>.
-        </data>
+        </dataWygenerowania>
       </podsumowanie>
   </dokumentPomocniczy>
 </xsl:template>
@@ -49,15 +48,15 @@ xmlns:default="http://tempuri.org/OurNamespace"
         <nr>
           <xsl:value-of select="position()"/>
         </nr>
-        <nazwa>
+        <tytuł>
           <xsl:value-of select="default:tytuł"/>
-        </nazwa>
+        </tytuł>
         <gatunek>
           <xsl:value-of select="default:gatunek"/>
         </gatunek>
-        <data_wydania>
+        <dataWydania>
           <xsl:value-of select="default:dataWydania"/>
-        </data_wydania>
+        </dataWydania>
         <wykonawca>
           <xsl:value-of select="default:wykonawca"/>
         </wykonawca>
