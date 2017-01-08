@@ -16,7 +16,7 @@
          <gatunek>progressive-death-metal</gatunek>
          <dataWydania> 1995-05-01 </dataWydania>
          <wykonawca>Opeth</wykonawca>
-         <cena>29.99 euro</cena>
+         <cena>29.99 zł</cena>
       </płyta>
       <płyta>
          <nr>3</nr>
@@ -76,20 +76,10 @@
       </płyta>
    </spisPłyt>
    <podsumowanie>
-      <liczbaGatunków>
-          Łączna liczba gatunków: 5.
-        </liczbaGatunków>
-      <łącznaCenaPłyt>
-          Łączna cena wszystkich płyt: 266.33 ZŁ.
-        </łącznaCenaPłyt>
-      <VAT>
-          VAT (od całości) 23%: 61.2559.
-        </VAT>
-      <łącznaIlośćPłyt>
-          Łączna ilość wszystkich płyt: 9.
-        </łącznaIlośćPłyt>
-      <dataWygenerowania>
-          Data wygenerowania raportu: 2016-12-11T23:46:01.258Z.
-        </dataWygenerowania>
+      <liczbaGatunków>5</liczbaGatunków>
+      <łącznaCenaPłyt>296,32</łącznaCenaPłyt>
+      <VAT>68,1536</VAT>
+      <łącznaIlośćPłyt>9</łącznaIlośćPłyt>
+      <dataWygenerowania>2016-12-11T23:46:01.258Z</dataWygenerowania>
    </podsumowanie>
 </dokumentPomocniczy>
