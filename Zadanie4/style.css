@@ -1,0 +1,130 @@
+nagłówek {
+    display: block;
+    padding: 20px;
+    font-size: 13px;
+    font-style: italic;
+    background-color: #9b3030;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    color: antiquewhite;
+}
+#a1 {
+    float: left;
+}
+#a2 {
+    float: right;
+}
+opis {
+    padding-left: 30%;
+}
+opis::after {
+    content: "|";
+    display: inline;
+}
+zbiór {
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+    background-color: beige;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+płyta * {
+    content: "";
+    display: block;
+}
+wykonawca::after {
+    display: block;
+    content: attr(idwykonawcy);
+	font-size: 20px;
+}
+dataWydania::before {
+    content: "Wydanie: ";
+}
+liczbaUtworów::before {
+    content: "Utworów: ";
+}
+cena::after {
+    content: attr(waluta);
+}
+cena::before {
+    content: "Cena: "
+}
+utwory::before {
+    content: attr(nazwa);
+}
+utwory {
+    counter-reset: section;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+    display: inline-block;
+    padding: 5px;
+}
+utwory::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid black;
+}
+
+lista {
+    width: 15%;
+    display: none;
+    position: absolute;
+    background-color: #904545;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+utwory:hover lista {
+    display: block;
+}
+utwór::before {
+    counter-increment: section;
+    content: counter(section) ". ";
+}
+utwór * {
+    display: inline;
+}
+zbiór::before {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: fantasy;
+    padding: 10px;
+    content: attr(nazwa)
+}
+płyta:hover {
+    background-color: #904545;
+    border-color: crimson;
+}
+płyta::after {
+    display: block;
+    content: attr(gatunek);
+}
+płyta {
+    margin: 20px 20px 20px 40px;
+    padding: 42px;
+    background-color: #ad4141;
+    width: 23%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+    text-align: center;
+    float: left;
+}
+tytuł {
+    font-weight: bold;
+}
+wykonawcy {
+    display: none;
+}

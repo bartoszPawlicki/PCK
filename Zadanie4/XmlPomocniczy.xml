@@ -1,0 +1,95 @@
+<dokumentPomocniczy xmlns:default="http://tempuri.org/OurNamespace"
+                    xmlns:hn="http://tempuri.org/HeaderNamespace"
+                    xmlns:ntn="http://tempuri.org/NumericalTypehnamespace">
+   <spisPłyt>
+      <płyta>
+         <nr>1</nr>
+         <tytuł> The Poison </tytuł>
+         <gatunek>metalcore</gatunek>
+         <dataWydania> 2005-10-03 </dataWydania>
+         <wykonawca>Bullet For My Valentine</wykonawca>
+         <cena>33.33 zł</cena>
+      </płyta>
+      <płyta>
+         <nr>2</nr>
+         <tytuł>Orchid</tytuł>
+         <gatunek>progressive-death-metal</gatunek>
+         <dataWydania> 1995-05-01 </dataWydania>
+         <wykonawca>Opeth</wykonawca>
+         <cena>29.99 euro</cena>
+      </płyta>
+      <płyta>
+         <nr>3</nr>
+         <tytuł>Smash</tytuł>
+         <gatunek>punk-rock</gatunek>
+         <dataWydania> 1994-04-08 </dataWydania>
+         <wykonawca>The Offspring</wykonawca>
+         <cena>50.00 zł</cena>
+      </płyta>
+      <płyta>
+         <nr>4</nr>
+         <tytuł>Americana</tytuł>
+         <gatunek>punk-rock</gatunek>
+         <dataWydania> 2005-01-08 </dataWydania>
+         <wykonawca>The Offspring</wykonawca>
+         <cena>25.00 zł</cena>
+      </płyta>
+      <płyta>
+         <nr>5</nr>
+         <tytuł>Americana</tytuł>
+         <gatunek>punk-rock</gatunek>
+         <dataWydania> 2005-01-08 </dataWydania>
+         <wykonawca>The Offspring</wykonawca>
+         <cena>25.00 zł</cena>
+      </płyta>
+      <płyta>
+         <nr>6</nr>
+         <tytuł>Americana</tytuł>
+         <gatunek>punk-rock</gatunek>
+         <dataWydania> 2005-01-08 </dataWydania>
+         <wykonawca>The Offspring</wykonawca>
+         <cena>25.00 zł</cena>
+      </płyta>
+      <płyta>
+         <nr>7</nr>
+         <tytuł>Americana</tytuł>
+         <gatunek>punk-rock</gatunek>
+         <dataWydania> 2005-01-08 </dataWydania>
+         <wykonawca>The Offspring</wykonawca>
+         <cena>25.00 zł</cena>
+      </płyta>
+      <płyta>
+         <nr>8</nr>
+         <tytuł> VanillaHaj$ </tytuł>
+         <gatunek>rap</gatunek>
+         <dataWydania> 2016-04-23 </dataWydania>
+         <wykonawca> TEDE </wykonawca>
+         <cena>38 zł</cena>
+      </płyta>
+      <płyta>
+         <nr>9</nr>
+         <tytuł> L.A. Woman </tytuł>
+         <gatunek>rock</gatunek>
+         <dataWydania> 1971-05-24 </dataWydania>
+         <wykonawca>The Doors</wykonawca>
+         <cena>45 zł</cena>
+      </płyta>
+   </spisPłyt>
+   <podsumowanie>
+      <liczbaGatunków>
+          Łączna liczba gatunków: 5.
+        </liczbaGatunków>
+      <łącznaCenaPłyt>
+          Łączna cena wszystkich płyt: 266.33 ZŁ.
+        </łącznaCenaPłyt>
+      <VAT>
+          VAT (od całości) 23%: 61.2559.
+        </VAT>
+      <łącznaIlośćPłyt>
+          Łączna ilość wszystkich płyt: 9.
+        </łącznaIlośćPłyt>
+      <dataWygenerowania>
+          Data wygenerowania raportu: 2016-12-11T23:46:01.258Z.
+        </dataWygenerowania>
+   </podsumowanie>
+</dokumentPomocniczy>
