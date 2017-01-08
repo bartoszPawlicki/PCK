@@ -17,7 +17,6 @@
 				<fo:block font-size="22pt" font-weight="bold" text-align="center">Płytoteka</fo:block>
 				<fo:table border="solid 1pt black" font-size="10pt">
 			
-					<!-- header-->
 					<fo:table-header font-weight="bold" text-align="center">
 						<fo:table-cell border="solid 1pt black">
 							<fo:block color="#FF0000">Tytuł</fo:block>
@@ -37,7 +36,6 @@
 						
 					</fo:table-header>
 					
-					<!-- body -->
 					<fo:table-body>
 						<xsl:for-each select="dokumentPomocniczy/spisPłyt/płyta"> 
 							<fo:table-row border="solid 1pt black">

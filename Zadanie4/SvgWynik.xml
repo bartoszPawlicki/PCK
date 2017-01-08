@@ -1,0 +1,168 @@
+ 
+      <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"> 
+    <svg xmlns="http://www.w3.org/2000/svg" width="1280px" height="1024px">
+   <script type="text/ecmascript">
+
+function MouseIn(evt) 
+{
+	var rect = evt.target;
+	rect.setAttribute("stroke-width", "5");
+}
+function MouseOut(evt) 
+{
+	var rect = evt.target;
+	rect.setAttribute("stroke-width", "3");
+}
+</script>
+   <text font-size="30" y="40" x="260">Ilość płyt w danym gatunku</text>
+   <text font-size="30" y="500" x="50">metalcore</text>
+   <rect id="rect1"
+         x="70"
+         y="390 "
+         rx="2"
+         width="40"
+         height="62"
+         fill="#99D9EA"
+         stroke="#00A2E8"
+         stroke-width="3"
+         onmouseout="MouseOut(evt)"
+         onmouseover="MouseIn(evt)">
+      <animateTransform attributeName="transform"
+                        begin="0s"
+                        dur="5s"
+                        type="rotate"
+                        from="0 90 420"
+                        to="360 90  420 "
+                        repeatCount="indefinite"/>
+   </rect>
+   <text x="80"
+         y="370"
+         font-size="20"
+         fill="black"
+         visibility="hidden">1<set attributeName="visibility"
+           from="hidden"
+           to="visible"
+           begin="rect1.mouseover"
+           end="rect1.mouseout"/>
+   </text>
+   <text font-size="30" y="500" x="210">metal</text>
+   <rect id="rect2"
+         x="220"
+         y="390 "
+         rx="2"
+         width="40"
+         height="62"
+         fill="#99D9EA"
+         stroke="#00A2E8"
+         stroke-width="3"
+         onmouseout="MouseOut(evt)"
+         onmouseover="MouseIn(evt)">
+      <animate attributeName="stroke"
+               attributeType="XML"
+               begin="0s"
+               dur="4s"
+               fill="freeze"
+               values="white;blue;white"
+               repeatCount="indefinite"/>
+   </rect>
+   <text x="230"
+         y="370"
+         font-size="20"
+         fill="black"
+         visibility="hidden">1<set attributeName="visibility"
+           from="hidden"
+           to="visible"
+           begin="rect2.mouseover"
+           end="rect2.mouseout"/>
+   </text>
+   <text font-size="30" y="500" x="330">punk-rock</text>
+   <rect id="rect3"
+         x="370"
+         y="150 "
+         rx="2"
+         width="40"
+         height="302"
+         fill="#99D9EA"
+         stroke="#00A2E8"
+         stroke-width="3"
+         onmouseout="MouseOut(evt)"
+         onmouseover="MouseIn(evt)">
+      <animate attributeName="stroke"
+               attributeType="XML"
+               begin="0s"
+               dur="4s"
+               fill="freeze"
+               values="white;blue;white"
+               repeatCount="indefinite"/>
+   </rect>
+   <text x="380"
+         y="130"
+         font-size="20"
+         fill="black"
+         visibility="hidden">5<set attributeName="visibility"
+           from="hidden"
+           to="visible"
+           begin="rect3.mouseover"
+           end="rect3.mouseout"/>
+   </text>
+   <text font-size="30" y="500" x="520">rap</text>
+   <rect id="rect4"
+         x="520"
+         y="390 "
+         rx="2"
+         width="40"
+         height="62"
+         fill="#99D9EA"
+         stroke="#00A2E8"
+         stroke-width="3"
+         onmouseout="MouseOut(evt)"
+         onmouseover="MouseIn(evt)">
+      <animate attributeName="stroke"
+               attributeType="XML"
+               begin="0s"
+               dur="4s"
+               fill="freeze"
+               values="white;blue;white"
+               repeatCount="indefinite"/>
+   </rect>
+   <text x="530"
+         y="370"
+         font-size="20"
+         fill="black"
+         visibility="hidden">1<set attributeName="visibility"
+           from="hidden"
+           to="visible"
+           begin="rect4.mouseover"
+           end="rect4.mouseout"/>
+   </text>
+   <text font-size="30" y="500" x="660">rock</text>
+   <rect id="rect5"
+         x="670"
+         y="390 "
+         rx="2"
+         width="40"
+         height="62"
+         fill="#99D9EA"
+         stroke="#00A2E8"
+         stroke-width="3"
+         onmouseout="MouseOut(evt)"
+         onmouseover="MouseIn(evt)">
+      <animateTransform attributeName="transform"
+                        begin="0s"
+                        dur="5s"
+                        type="rotate"
+                        from="0 690 420"
+                        to="360 690  420 "
+                        repeatCount="indefinite"/>
+   </rect>
+   <text x="680"
+         y="370"
+         font-size="20"
+         fill="black"
+         visibility="hidden">1<set attributeName="visibility"
+           from="hidden"
+           to="visible"
+           begin="rect5.mouseover"
+           end="rect5.mouseout"/>
+   </text>
+</svg>
