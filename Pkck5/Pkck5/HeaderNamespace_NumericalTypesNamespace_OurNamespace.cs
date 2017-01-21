@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.Collections.Generic;
 using System.Xml.Serialization;
 
 // 
@@ -146,7 +147,7 @@ public partial class cena {
     
     private cenaWaluta walutaField;
     
-    private decimal valueField;
+    private float valueField;
     
     /// <uwagi/>
     [System.Xml.Serialization.XmlAttributeAttribute()]
@@ -161,7 +162,7 @@ public partial class cena {
     
     /// <uwagi/>
     [System.Xml.Serialization.XmlTextAttribute()]
-    public decimal Value {
+    public float Value {
         get {
             return this.valueField;
         }
@@ -269,13 +270,13 @@ public partial class płytoteka {
 [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/OurNamespace", IsNullable=false)]
 public partial class zbiór {
     
-    private płyta[] płytaField;
+    private List<płyta> płytaField;
     
     private string nazwaField;
     
     /// <uwagi/>
     [System.Xml.Serialization.XmlElementAttribute("płyta")]
-    public płyta[] płyta {
+    public List<płyta> płyta {
         get {
             return this.płytaField;
         }

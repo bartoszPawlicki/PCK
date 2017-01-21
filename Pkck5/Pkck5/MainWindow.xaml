@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pkck5"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Zadanie 5 - PKCK" Height="600" Width="800">
     <Grid>
-        
+        <ListView Margin="10,10,10,336" Name="płytyListView" ItemsSource="{Binding płytyCollection}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Tytuł" Width="120" DisplayMemberBinding="{Binding tytuł}" />
+                    <GridViewColumn Header="Wykonawca" Width="100" DisplayMemberBinding="{Binding wykonawca}" />
+                    <GridViewColumn Header="Liczba utworów" Width="100" DisplayMemberBinding="{Binding liczbaUtworów}" />
+                    <GridViewColumn Header="Data wydania" Width="100" DisplayMemberBinding="{Binding dataWydania}" />
+                    <GridViewColumn Header="Cena" Width="60" DisplayMemberBinding="{Binding cena}" />
+                    <GridViewColumn Header="Gatunek" Width="100" DisplayMemberBinding="{Binding gatunek}" />
+                    <GridViewColumn Header="Lista utwórów" Width="150" DisplayMemberBinding="{Binding utwory}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="Delete" Content="Usuń" HorizontalAlignment="Left" Margin="10,239,0,0" VerticalAlignment="Top" Width="75" Click="Delete_Click"/>
+
     </Grid>
 </Window>
