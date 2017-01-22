@@ -146,8 +146,8 @@
       <utwory nazwa="Lista utworów">
         <lista>
           <utwór codec="mp3" bitrate="320">
-            <tytułUtworu />
-            <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:08</czasTrwania>
+            <tytułUtworu>heheh</tytułUtworu>
+            <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:00</czasTrwania>
           </utwór>
           <utwór codec="mp3" bitrate="320">
             <tytułUtworu>Americana</tytułUtworu>
@@ -155,7 +155,7 @@
           </utwór>
           <utwór codec="mp3" bitrate="320">
             <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
-            <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:15</czasTrwania>
+            <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:00</czasTrwania>
           </utwór>
         </lista>
       </utwory>
@@ -204,6 +204,26 @@
           <utwór codec="mp3" bitrate="320">
             <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:15</czasTrwania>
+          </utwór>
+        </lista>
+      </utwory>
+    </płyta>
+    <płyta>
+      <tytuł>Miś Koala i przyjaciele</tytuł>
+      <wykonawca>MC Koala</wykonawca>
+      <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">2</liczbaUtworów>
+      <dataWydania>2017-01-24</dataWydania>
+      <cena waluta="dolar" xmlns="http://tempuri.org/NumericalTypesNamespace">15</cena>
+      <gatunek>hip-hop</gatunek>
+      <utwory>
+        <lista>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu>Moi kumple są de best</tytułUtworu>
+            <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:00</czasTrwania>
+          </utwór>
+          <utwór codec="mp3" bitrate="320">
+            <tytułUtworu> Stulejowy Las</tytułUtworu>
+            <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:00</czasTrwania>
           </utwór>
         </lista>
       </utwory>

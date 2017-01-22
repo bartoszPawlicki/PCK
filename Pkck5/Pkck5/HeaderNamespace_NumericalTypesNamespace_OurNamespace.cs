@@ -423,12 +423,19 @@ public partial class płyta {
     {
         get
         {
-            string f = null;
-            foreach (var item in this.utworyField.lista)
+            string f = "";
+            if (this.utworyField.lista != null)
             {
-                f += item.tytułUtworu + ",";
+                foreach (var item in this.utworyField.lista)
+                {
+                    f += item.tytułUtworu + ",";
+                }
+                return f;
             }
-            return f;
+            else
+            {
+                return utworyField.ToString();
+            }
         }
         set
         {
@@ -499,6 +506,7 @@ public partial class utwór {
     private short bitrateField;
     
     public utwór() {
+        this.tytułUtworuField = "aa";
         this.codecField = utwórCodec.mp3;
         this.bitrateField = ((short)(320));
         this.czasTrwaniaField = "3:00";

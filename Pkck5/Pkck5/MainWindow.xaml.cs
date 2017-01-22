@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Windows;
 
 namespace Pkck5
@@ -26,7 +28,7 @@ namespace Pkck5
 
             płytoteka = new płytoteka();
 
-            XmlUtilities = new XmlUtilities("Dokumenty//plytoteka.xml", new string[3]{"Dokumenty//HeaderNamespace.xsd", "Dokumenty//NumericalTypesNamespace.xsd", "Dokumenty//OurNamespace.xsd"});
+            XmlUtilities = new XmlUtilities("Dokumenty//plytoteka.xml", new string[3] { "Dokumenty//HeaderNamespace.xsd", "Dokumenty//NumericalTypesNamespace.xsd", "Dokumenty//OurNamespace.xsd" });
 
             OpenApplication();
 
@@ -213,6 +215,10 @@ namespace Pkck5
             nowa.cena = new cena();
             nowa.utwory = new płytaUtwory();
             nowa.utwory.lista = new utwór[int.Parse(liczbaUtworówBox.Text)];
+            for (int h = 0; h < int.Parse(liczbaUtworówBox.Text); h++)
+            {
+                nowa.utwory.lista[h] = new utwór();
+            }
 
             nowa.tytuł = tytułBox.Text;
             nowa.wykonawca[0] = wykonawcaBox.Text;
@@ -225,7 +231,7 @@ namespace Pkck5
             gatunek status;
             Enum.TryParse<gatunek>(comboBox.SelectedValue.ToString(), out status);
             nowa.gatunek = status;
-            nowa.dataWydania = Convert.ToDateTime(datePicker);
+            nowa.dataWydania = datePicker.SelectedDate.Value;
 
             płytoteka.zbiór.płyta.Add(nowa);
 
@@ -241,20 +247,22 @@ namespace Pkck5
                 datePicker.Text = "";
                 comboBox.Text = "inny";
                 liczbaUtworówBox.Text = "";
+
+                Save.IsEnabled = false;
+                Cancel.IsEnabled = false;
+                Add.IsEnabled = true;
+                Delete.IsEnabled = false;
+                Edit.IsEnabled = false;
+                EditSave.IsEnabled = false;
+
+                SetEnabledBoxes(false);
             }
             else
             {
                 MessageBox.Show("Edycja danych niezgodna z XML Schema!", "Błąd!");
                 płytoteka = XmlUtilities.LoadData();
             }
-            Save.IsEnabled = false;
-            Cancel.IsEnabled = false;
-            Add.IsEnabled = true;
-            Delete.IsEnabled = false;
-            Edit.IsEnabled = false;
-            EditSave.IsEnabled = false;
 
-            SetEnabledBoxes(false);
         }
         private void Cancel_Click(object sender, RoutedEventArgs e)
         {
