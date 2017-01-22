@@ -35,11 +35,12 @@
             <Label x:Name="label_Copy2" Content="Data wydania" HorizontalAlignment="Left" Margin="10,107,0,0" VerticalAlignment="Top" Height="25" Width="82"/>
             <DatePicker x:Name="datePicker" HorizontalAlignment="Left" Margin="8,108,0,0" VerticalAlignment="Top" Width="126" Grid.Column="1"/>
             <Label x:Name="label_Copy3" Content="Cena" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top" Height="25" Width="93" Grid.ColumnSpan="2"/>
-            <TextBox x:Name="cenaBox" HorizontalAlignment="Left" Height="22" Margin="8,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="126" Grid.Column="1"/>
+            <TextBox x:Name="cenaBox" HorizontalAlignment="Left" Height="22" Margin="8,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="61" Grid.Column="1"/>
             <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="252,9,0,0" VerticalAlignment="Top" Width="164" Height="26" Grid.Column="1"/>
             <Label x:Name="label1" Content="Gatunek" HorizontalAlignment="Left" Margin="193,9,0,0" VerticalAlignment="Top" Grid.Column="1"/>
             <Label x:Name="label2" Content="Lista utworów" HorizontalAlignment="Left" Margin="193,40,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.06,0.385" Grid.Column="1"/>
             <TextBox x:Name="listaUtworówBox" HorizontalAlignment="Left" Height="88" Margin="277,44,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="139" Grid.Column="1"/>
+            <ComboBox x:Name="walutaComboBox" Grid.Column="1" HorizontalAlignment="Left" Margin="74,137,0,0" VerticalAlignment="Top" Width="60" ItemsSource="{Binding cenaWaluta}"/>
         </Grid>
         <Button x:Name="Add" Content="Dodaj" HorizontalAlignment="Left" Margin="15,239,0,0" VerticalAlignment="Top" Width="75" Height="22" Click="Add_Click"/>
         <Button x:Name="Save" Content="Zapisz" HorizontalAlignment="Left" Margin="584,319,0,0" VerticalAlignment="Top" Width="79" Height="68" Click="Save_Click"/>

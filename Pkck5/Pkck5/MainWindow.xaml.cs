@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.ObjectModel;
 using System.Windows;
 
 namespace Pkck5
@@ -27,8 +28,8 @@ namespace Pkck5
             OpenApplication();
 
             płytyListView.ItemsSource = płytyCollection;
-            //this.PracownicyListBox.DataContext = Pracownicy;
-            //this.DzialyBox.DataContext = Firma.ListaDziałówList.FirstOrDefault().ZdefiniowanyDziałList;
+            walutaComboBox.ItemsSource = Enum.GetValues(typeof(cenaWaluta));
+            comboBox.ItemsSource = Enum.GetValues(typeof(gatunek));
         }
 
 
@@ -231,6 +232,7 @@ namespace Pkck5
             datePicker.Text = "";
             comboBox.Text = "";
             liczbaUtworówBox.Text = "";
+            walutaComboBox.Text = null;
         }
 
         private void płytyListView_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
@@ -269,7 +271,20 @@ namespace Pkck5
         }
         private void Save_Click(object sender, RoutedEventArgs e)
         {
-            
+            płyta nowa = new płyta();
+
+            nowa.tytuł = tytułBox.Text;
+            nowa.wykonawca[0] = wykonawcaBox.Text;
+            nowa.cena.Value = int.Parse(cenaBox.Text);
+            cenaWaluta waluta;
+            Enum.TryParse<cenaWaluta>(walutaComboBox.SelectedValue.ToString(), out waluta);
+            nowa.cena.waluta = waluta;
+            nowa.utworyProperty = listaUtworówBox.Text;
+            nowa.liczbaUtworów = decimal.Parse(liczbaUtworówBox.Text);
+            gatunek status;
+            Enum.TryParse<gatunek>(comboBox.SelectedValue.ToString(), out status);
+            nowa.gatunek = status;
+            nowa.dataWydania = Convert.ToDateTime(datePicker);
         }
         private void Cancel_Click(object sender, RoutedEventArgs e)
         {
