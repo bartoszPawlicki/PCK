@@ -13,3 +13,17 @@ C:\Users\Piotrek\Desktop\Studia\PCK\Pkck5\Pkck5\obj\Debug\Pkck5.csproj.GenerateR
 C:\Users\Piotrek\Desktop\Studia\PCK\Pkck5\Pkck5\obj\Debug\Pkck5.exe
 C:\Users\Piotrek\Desktop\Studia\PCK\Pkck5\Pkck5\obj\Debug\Pkck5.pdb
 C:\Users\Piotrek\Desktop\Studia\PCK\Pkck5\Pkck5\obj\Debug\Pkck5.csprojResolveAssemblyReference.cache
+D:\Users\Bartek\Documents\Studia\Semestr 5\Programowanie Człowiek-Komputer\PCK\Pkck5\Pkck5\bin\Debug\Pkck5.exe.config
+D:\Users\Bartek\Documents\Studia\Semestr 5\Programowanie Człowiek-Komputer\PCK\Pkck5\Pkck5\obj\Debug\Pkck5.exe
+D:\Users\Bartek\Documents\Studia\Semestr 5\Programowanie Człowiek-Komputer\PCK\Pkck5\Pkck5\obj\Debug\Pkck5.pdb
+D:\Users\Bartek\Documents\Studia\Semestr 5\Programowanie Człowiek-Komputer\PCK\Pkck5\Pkck5\obj\Debug\Pkck5.csprojResolveAssemblyReference.cache
+D:\Users\Bartek\Documents\Studia\Semestr 5\Programowanie Człowiek-Komputer\PCK\Pkck5\Pkck5\obj\Debug\MainWindow.g.cs
+D:\Users\Bartek\Documents\Studia\Semestr 5\Programowanie Człowiek-Komputer\PCK\Pkck5\Pkck5\obj\Debug\App.g.cs
+D:\Users\Bartek\Documents\Studia\Semestr 5\Programowanie Człowiek-Komputer\PCK\Pkck5\Pkck5\obj\Debug\Pkck5_MarkupCompile.cache
+D:\Users\Bartek\Documents\Studia\Semestr 5\Programowanie Człowiek-Komputer\PCK\Pkck5\Pkck5\obj\Debug\Pkck5_MarkupCompile.lref
+D:\Users\Bartek\Documents\Studia\Semestr 5\Programowanie Człowiek-Komputer\PCK\Pkck5\Pkck5\bin\Debug\Pkck5.exe
+D:\Users\Bartek\Documents\Studia\Semestr 5\Programowanie Człowiek-Komputer\PCK\Pkck5\Pkck5\bin\Debug\Pkck5.pdb
+D:\Users\Bartek\Documents\Studia\Semestr 5\Programowanie Człowiek-Komputer\PCK\Pkck5\Pkck5\obj\Debug\MainWindow.baml
+D:\Users\Bartek\Documents\Studia\Semestr 5\Programowanie Człowiek-Komputer\PCK\Pkck5\Pkck5\obj\Debug\Pkck5.g.resources
+D:\Users\Bartek\Documents\Studia\Semestr 5\Programowanie Człowiek-Komputer\PCK\Pkck5\Pkck5\obj\Debug\Pkck5.Properties.Resources.resources
+D:\Users\Bartek\Documents\Studia\Semestr 5\Programowanie Człowiek-Komputer\PCK\Pkck5\Pkck5\obj\Debug\Pkck5.csproj.GenerateResource.Cache

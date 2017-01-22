@@ -18,6 +18,7 @@ namespace Pkck5
 
             Edit.IsEnabled = false;
             Save.IsEnabled = false;
+            Cancel.IsEnabled = false;
 
             płytoteka = new płytoteka();
 
@@ -235,13 +236,58 @@ namespace Pkck5
         private void płytyListView_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
         {
             Edit.IsEnabled = true;
+            płyta element = (płyta)płytyListView.SelectedItem;
+            tytułBox.Text = element.tytuł;
+            wykonawcaBox.Text = element.wykonawca[0];
+            cenaBox.Text = element.cenaProperty;
+            listaUtworówBox.Text = element.utworyProperty;
+            datePicker.Text = element.dataWydaniaProperty;
+            comboBox.Text = element.gatunek.ToString();
+            liczbaUtworówBox.Text = element.liczbaUtworów.ToString();
         }
 
+        private void Edit_Click(object sender, RoutedEventArgs e)
+        {
+            if (płytyListView.SelectedItem != null)
+            {
+                płyta element = (płyta)płytyListView.SelectedItem;
+
+                tytułBox.Text = element.tytuł;
+                wykonawcaBox.Text = element.wykonawca[0];
+                cenaBox.Text = element.cenaProperty;
+                listaUtworówBox.Text = element.utworyProperty;
+                datePicker.Text = element.dataWydaniaProperty;
+                comboBox.Text = element.gatunek.ToString();
+                liczbaUtworówBox.Text = element.liczbaUtworów.ToString();
+
+                Save.IsEnabled = true;
+                Cancel.IsEnabled = true;
+                Add.IsEnabled = false;
+                Delete.IsEnabled = false;
+                Edit.IsEnabled = false;
+            }
+        }
         private void Save_Click(object sender, RoutedEventArgs e)
         {
-            płyta nowa = new płyta();
+            
+        }
+        private void Cancel_Click(object sender, RoutedEventArgs e)
+        {
+            Save.IsEnabled = false;
+            Cancel.IsEnabled = false;
+            Add.IsEnabled = true;
+            Delete.IsEnabled = true;
+            Edit.IsEnabled = true;
 
-            nowa.tytuł = 
+            tytułBox.Text = "";
+            wykonawcaBox.Text = "";
+            cenaBox.Text = "";
+            listaUtworówBox.Text = "";
+            datePicker.Text = "";
+            comboBox.Text = "inny";
+            liczbaUtworówBox.Text = "";
+
+            płytyListView.SelectedItem = null;
         }
     }
 }
