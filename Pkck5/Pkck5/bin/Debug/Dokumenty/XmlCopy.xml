@@ -21,7 +21,7 @@
       <wykonawca>The Doors</wykonawca>
       <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">10</liczbaUtworów>
       <dataWydania>1971-05-24</dataWydania>
-      <cena waluta="zł" xmlns="http://tempuri.org/NumericalTypesNamespace">45</cena>
+      <cena waluta="zł" xmlns="http://tempuri.org/NumericalTypesNamespace">42</cena>
       <gatunek>rock</gatunek>
       <utwory nazwa="Lista utworów">
         <lista>
@@ -43,7 +43,7 @@
     <płyta>
       <tytuł> The Poison </tytuł>
       <wykonawca>Bullet For My Valentine</wykonawca>
-      <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">13</liczbaUtworów>
+      <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">2</liczbaUtworów>
       <dataWydania>2005-10-03</dataWydania>
       <cena waluta="zł" xmlns="http://tempuri.org/NumericalTypesNamespace">33.33</cena>
       <gatunek>metalcore</gatunek>
@@ -118,7 +118,7 @@
       <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">14</liczbaUtworów>
       <dataWydania>1994-04-08</dataWydania>
       <cena waluta="zł" xmlns="http://tempuri.org/NumericalTypesNamespace">50</cena>
-      <gatunek>punk-rock</gatunek>
+      <gatunek>pop</gatunek>
       <utwory nazwa="Lista utworów">
         <lista>
           <utwór codec="mp3" bitrate="252">
@@ -139,22 +139,22 @@
     <płyta>
       <tytuł>Americana</tytuł>
       <wykonawca>The Offspring</wykonawca>
-      <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">13</liczbaUtworów>
+      <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">12</liczbaUtworów>
       <dataWydania>2005-01-08</dataWydania>
       <cena waluta="zł" xmlns="http://tempuri.org/NumericalTypesNamespace">25</cena>
       <gatunek>punk-rock</gatunek>
       <utwory nazwa="Lista utworów">
         <lista>
           <utwór codec="mp3" bitrate="320">
-            <tytułUtworu>Pretty Fly (for a White Guy)</tytułUtworu>
+            <tytułUtworu />
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:08</czasTrwania>
           </utwór>
           <utwór codec="mp3" bitrate="320">
-            <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
+            <tytułUtworu>Americana</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:00</czasTrwania>
           </utwór>
           <utwór codec="mp3" bitrate="320">
-            <tytułUtworu>Americana</tytułUtworu>
+            <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:15</czasTrwania>
           </utwór>
         </lista>
@@ -163,22 +163,22 @@
     <płyta>
       <tytuł>Americana</tytuł>
       <wykonawca>The Offspring</wykonawca>
-      <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">13</liczbaUtworów>
+      <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">11</liczbaUtworów>
       <dataWydania>2005-01-08</dataWydania>
       <cena waluta="zł" xmlns="http://tempuri.org/NumericalTypesNamespace">25</cena>
       <gatunek>punk-rock</gatunek>
       <utwory nazwa="Lista utworów">
         <lista>
           <utwór codec="mp3" bitrate="320">
-            <tytułUtworu>Pretty Fly (for a White Guy)</tytułUtworu>
+            <tytułUtworu />
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:08</czasTrwania>
           </utwór>
           <utwór codec="mp3" bitrate="320">
-            <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
+            <tytułUtworu>Americana</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:00</czasTrwania>
           </utwór>
           <utwór codec="mp3" bitrate="320">
-            <tytułUtworu>Americana</tytułUtworu>
+            <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:15</czasTrwania>
           </utwór>
         </lista>
@@ -187,22 +187,22 @@
     <płyta>
       <tytuł>Americana</tytuł>
       <wykonawca>The Offspring</wykonawca>
-      <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">13</liczbaUtworów>
+      <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">32</liczbaUtworów>
       <dataWydania>2005-01-08</dataWydania>
       <cena waluta="zł" xmlns="http://tempuri.org/NumericalTypesNamespace">25</cena>
       <gatunek>punk-rock</gatunek>
       <utwory nazwa="Lista utworów">
         <lista>
           <utwór codec="mp3" bitrate="320">
-            <tytułUtworu>Pretty Fly (for a White Guy)</tytułUtworu>
+            <tytułUtworu />
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:08</czasTrwania>
           </utwór>
           <utwór codec="mp3" bitrate="320">
-            <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
+            <tytułUtworu>Americana</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:00</czasTrwania>
           </utwór>
           <utwór codec="mp3" bitrate="320">
-            <tytułUtworu>Americana</tytułUtworu>
+            <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:15</czasTrwania>
           </utwór>
         </lista>

@@ -433,11 +433,13 @@ public partial class płyta {
         set
         {
             List<string> names = value.Split(',').ToList<string>();
-            names.Reverse();
             int i = 0;
             foreach (var item in utworyField.lista)
             {
                 item.tytułUtworu = names.ElementAt(i);
+                item.bitrate = (short)(320);
+                item.codec = utwórCodec.mp3;
+                item.czasTrwania = "3:00";
                 i++;
             }
         }
@@ -499,6 +501,7 @@ public partial class utwór {
     public utwór() {
         this.codecField = utwórCodec.mp3;
         this.bitrateField = ((short)(320));
+        this.czasTrwaniaField = "3:00";
     }
     
     /// <uwagi/>
