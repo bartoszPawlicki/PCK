@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("dokumenty/plytoteka.xml")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("plytoteka.xml")]
 
 

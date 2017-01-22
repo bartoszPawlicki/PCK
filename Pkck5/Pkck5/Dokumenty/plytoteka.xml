@@ -7,7 +7,7 @@
 		   xsi:schemaLocation="http://tempuri.org/OurNamespace OurNamespace.xsd"
 		   xmlns:default="http://tempuri.org/OurNamespace"
        xmlns:hn="http://tempuri.org/HeaderNamespace"
-       xmlns:ntn="http://tempuri.org/NumericalTypehnamespace">
+       xmlns:ntn="http://tempuri.org/NumericalTypesNamespace">
 
   <hn:nagłówek>
     <hn:autor id="a1">

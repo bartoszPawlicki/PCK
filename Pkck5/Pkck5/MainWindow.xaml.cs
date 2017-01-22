@@ -16,6 +16,9 @@ namespace Pkck5
         {
             InitializeComponent();
 
+            Edit.IsEnabled = false;
+            Save.IsEnabled = false;
+
             płytoteka = new płytoteka();
 
             XmlUtilities = new XmlUtilities("Dokumenty//plytoteka.xml", new string[3]{"Dokumenty//HeaderNamespace.xsd", "Dokumenty//NumericalTypesNamespace.xsd", "Dokumenty//OurNamespace.xsd"});
@@ -191,7 +194,7 @@ namespace Pkck5
         private void Delete_Click(object sender, RoutedEventArgs e)
         {
             płyta element = (płyta)płytyListView.SelectedItem;
-            MessageBoxResult result = MessageBox.Show("Czy na pewno chcesz usunąć płytę " + element.tytuł + " wykonawcy " + element.wykonawca + "?", "Usuwanie", MessageBoxButton.YesNo);
+            MessageBoxResult result = MessageBox.Show("Czy na pewno chcesz usunąć płytę " + element.tytuł + " wykonawcy " + element.wykonawca[0] + "?", "Usuwanie", MessageBoxButton.YesNo);
             if (result == MessageBoxResult.Yes)
             {
                 //Firma.DziałList.SingleOrDefault(x => x.IdDzialu == element.Dział).ZatrudnienieList.RemoveAll(x => x.IdOsoby == element.IdOsoby);
@@ -210,6 +213,35 @@ namespace Pkck5
                     płytoteka = XmlUtilities.LoadData();
                 }
             }
+        }
+
+        private void Add_Click(object sender, RoutedEventArgs e)
+        {
+            Save.IsEnabled = true;
+            Cancel.IsEnabled = true;
+            Add.IsEnabled = false;
+            Delete.IsEnabled = false;
+            Edit.IsEnabled = false;
+
+            tytułBox.Text = "";
+            wykonawcaBox.Text = "";
+            cenaBox.Text = "";
+            listaUtworówBox.Text = "";
+            datePicker.Text = "";
+            comboBox.Text = "";
+            liczbaUtworówBox.Text = "";
+        }
+
+        private void płytyListView_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            Edit.IsEnabled = true;
+        }
+
+        private void Save_Click(object sender, RoutedEventArgs e)
+        {
+            płyta nowa = new płyta();
+
+            nowa.tytuł = 
         }
     }
 }

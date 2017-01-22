@@ -21,192 +21,243 @@
       <wykonawca>The Doors</wykonawca>
       <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">10</liczbaUtworów>
       <dataWydania>1971-05-24</dataWydania>
+      <dataWydaniaProperty>1971-05-24</dataWydaniaProperty>
       <cena waluta="zł" xmlns="http://tempuri.org/NumericalTypesNamespace">45</cena>
+      <cenaProperty>45</cenaProperty>
       <gatunek>rock</gatunek>
       <utwory nazwa="Lista utworów">
         <lista>
-          <utwór codec="mp3" bitrate="320">
+          <utwór>
             <tytułUtworu>The Changeling</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">4:21</czasTrwania>
           </utwór>
-          <utwór codec="mp3" bitrate="320">
+          <utwór>
             <tytułUtworu>Love Her Madly</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:20</czasTrwania>
           </utwór>
-          <utwór codec="mp3" bitrate="320">
+          <utwór>
             <tytułUtworu>Riders on the Storm</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">7:09</czasTrwania>
           </utwór>
         </lista>
       </utwory>
+      <utworyProperty>The Changeling,Love Her Madly,Riders on the Storm,</utworyProperty>
     </płyta>
     <płyta>
       <tytuł> The Poison </tytuł>
       <wykonawca>Bullet For My Valentine</wykonawca>
       <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">13</liczbaUtworów>
       <dataWydania>2005-10-03</dataWydania>
+      <dataWydaniaProperty>2005-10-03</dataWydaniaProperty>
       <cena waluta="zł" xmlns="http://tempuri.org/NumericalTypesNamespace">33.33</cena>
+      <cenaProperty>33,33</cenaProperty>
       <gatunek>metalcore</gatunek>
       <utwory nazwa="Lista utworów">
         <lista>
-          <utwór codec="flac" bitrate="320">
+          <utwór codec="flac">
             <tytułUtworu>4 Words (To Choke Upon)</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">2:43</czasTrwania>
           </utwór>
-          <utwór codec="flac" bitrate="320">
+          <utwór codec="flac">
             <tytułUtworu>Tears Don't Fall</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">5:48</czasTrwania>
           </utwór>
-          <utwór codec="flac" bitrate="320">
+          <utwór codec="flac">
             <tytułUtworu>All These Things I Hate</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:45</czasTrwania>
           </utwór>
         </lista>
       </utwory>
+      <utworyProperty>4 Words (To Choke Upon),Tears Don't Fall,All These Things I Hate,</utworyProperty>
     </płyta>
     <płyta>
       <tytuł> VanillaHaj$ </tytuł>
       <wykonawca> TEDE </wykonawca>
       <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">16</liczbaUtworów>
       <dataWydania>2016-04-23</dataWydania>
+      <dataWydaniaProperty>2016-04-23</dataWydaniaProperty>
       <cena waluta="zł" xmlns="http://tempuri.org/NumericalTypesNamespace">38</cena>
+      <cenaProperty>38</cenaProperty>
       <gatunek>rap</gatunek>
       <utwory nazwa="Lista utworów">
         <lista>
-          <utwór codec="ogg" bitrate="320">
+          <utwór codec="ogg">
             <tytułUtworu>Vanillalalahajs</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:04</czasTrwania>
           </utwór>
-          <utwór codec="ogg" bitrate="320">
+          <utwór codec="ogg">
             <tytułUtworu>Vanilla Ice</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">4:22</czasTrwania>
           </utwór>
-          <utwór codec="ogg" bitrate="320">
+          <utwór codec="ogg">
             <tytułUtworu>Dyskretny chłód 2</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:56</czasTrwania>
           </utwór>
         </lista>
       </utwory>
+      <utworyProperty>Vanillalalahajs,Vanilla Ice,Dyskretny chłód 2,</utworyProperty>
     </płyta>
     <płyta>
       <tytuł>Orchid</tytuł>
       <wykonawca>Opeth</wykonawca>
       <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">7</liczbaUtworów>
       <dataWydania>1995-05-01</dataWydania>
+      <dataWydaniaProperty>1995-05-01</dataWydaniaProperty>
       <cena waluta="euro" xmlns="http://tempuri.org/NumericalTypesNamespace">29.99</cena>
+      <cenaProperty>29,99</cenaProperty>
       <gatunek>progressive-death-metal</gatunek>
       <utwory nazwa="Lista utworów">
         <lista>
-          <utwór codec="mp3" bitrate="320">
+          <utwór>
             <tytułUtworu>In Mist She Was Standing</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">14:09</czasTrwania>
           </utwór>
-          <utwór codec="mp3" bitrate="320">
+          <utwór>
             <tytułUtworu>Under the Weeping Moon</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">9:55</czasTrwania>
           </utwór>
-          <utwór codec="mp3" bitrate="320">
+          <utwór>
             <tytułUtworu>Silhouette</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:04</czasTrwania>
           </utwór>
         </lista>
       </utwory>
+      <utworyProperty>In Mist She Was Standing,Under the Weeping Moon,Silhouette,</utworyProperty>
     </płyta>
     <płyta>
       <tytuł>Smash</tytuł>
       <wykonawca>The Offspring</wykonawca>
       <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">14</liczbaUtworów>
       <dataWydania>1994-04-08</dataWydania>
+      <dataWydaniaProperty>1994-04-08</dataWydaniaProperty>
       <cena waluta="zł" xmlns="http://tempuri.org/NumericalTypesNamespace">50</cena>
+      <cenaProperty>50</cenaProperty>
       <gatunek>punk-rock</gatunek>
       <utwory nazwa="Lista utworów">
         <lista>
-          <utwór codec="mp3" bitrate="252">
+          <utwór bitrate="252">
             <tytułUtworu>Self Esteem</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">4:17</czasTrwania>
           </utwór>
-          <utwór codec="mp3" bitrate="252">
+          <utwór bitrate="252">
             <tytułUtworu>Come Out and Play</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:17</czasTrwania>
           </utwór>
-          <utwór codec="mp3" bitrate="252">
+          <utwór bitrate="252">
             <tytułUtworu>Nitro (Youth Energy)</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">2:27</czasTrwania>
           </utwór>
         </lista>
       </utwory>
+      <utworyProperty>Self Esteem,Come Out and Play,Nitro (Youth Energy),</utworyProperty>
     </płyta>
     <płyta>
       <tytuł>Americana</tytuł>
       <wykonawca>The Offspring</wykonawca>
       <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">13</liczbaUtworów>
       <dataWydania>2005-01-08</dataWydania>
+      <dataWydaniaProperty>2005-01-08</dataWydaniaProperty>
       <cena waluta="zł" xmlns="http://tempuri.org/NumericalTypesNamespace">25</cena>
+      <cenaProperty>25</cenaProperty>
       <gatunek>punk-rock</gatunek>
       <utwory nazwa="Lista utworów">
         <lista>
-          <utwór codec="mp3" bitrate="320">
+          <utwór>
             <tytułUtworu>Pretty Fly (for a White Guy)</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:08</czasTrwania>
           </utwór>
-          <utwór codec="mp3" bitrate="320">
+          <utwór>
             <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:00</czasTrwania>
           </utwór>
-          <utwór codec="mp3" bitrate="320">
+          <utwór>
             <tytułUtworu>Americana</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:15</czasTrwania>
           </utwór>
         </lista>
       </utwory>
+      <utworyProperty>Pretty Fly (for a White Guy),The Kids Aren’t Alright,Americana,</utworyProperty>
     </płyta>
     <płyta>
       <tytuł>Americana</tytuł>
       <wykonawca>The Offspring</wykonawca>
       <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">13</liczbaUtworów>
       <dataWydania>2005-01-08</dataWydania>
+      <dataWydaniaProperty>2005-01-08</dataWydaniaProperty>
       <cena waluta="zł" xmlns="http://tempuri.org/NumericalTypesNamespace">25</cena>
+      <cenaProperty>25</cenaProperty>
       <gatunek>punk-rock</gatunek>
       <utwory nazwa="Lista utworów">
         <lista>
-          <utwór codec="mp3" bitrate="320">
+          <utwór>
             <tytułUtworu>Pretty Fly (for a White Guy)</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:08</czasTrwania>
           </utwór>
-          <utwór codec="mp3" bitrate="320">
+          <utwór>
             <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:00</czasTrwania>
           </utwór>
-          <utwór codec="mp3" bitrate="320">
+          <utwór>
             <tytułUtworu>Americana</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:15</czasTrwania>
           </utwór>
         </lista>
       </utwory>
+      <utworyProperty>Pretty Fly (for a White Guy),The Kids Aren’t Alright,Americana,</utworyProperty>
     </płyta>
     <płyta>
       <tytuł>Americana</tytuł>
       <wykonawca>The Offspring</wykonawca>
       <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">13</liczbaUtworów>
       <dataWydania>2005-01-08</dataWydania>
+      <dataWydaniaProperty>2005-01-08</dataWydaniaProperty>
       <cena waluta="zł" xmlns="http://tempuri.org/NumericalTypesNamespace">25</cena>
+      <cenaProperty>25</cenaProperty>
       <gatunek>punk-rock</gatunek>
       <utwory nazwa="Lista utworów">
         <lista>
-          <utwór codec="mp3" bitrate="320">
+          <utwór>
             <tytułUtworu>Pretty Fly (for a White Guy)</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:08</czasTrwania>
           </utwór>
-          <utwór codec="mp3" bitrate="320">
+          <utwór>
             <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:00</czasTrwania>
           </utwór>
-          <utwór codec="mp3" bitrate="320">
+          <utwór>
             <tytułUtworu>Americana</tytułUtworu>
             <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:15</czasTrwania>
           </utwór>
         </lista>
       </utwory>
+      <utworyProperty>Pretty Fly (for a White Guy),The Kids Aren’t Alright,Americana,</utworyProperty>
+    </płyta>
+    <płyta>
+      <tytuł>Americana</tytuł>
+      <wykonawca>The Offspring</wykonawca>
+      <liczbaUtworów xmlns="http://tempuri.org/NumericalTypesNamespace">13</liczbaUtworów>
+      <dataWydania>2005-01-08</dataWydania>
+      <dataWydaniaProperty>2005-01-08</dataWydaniaProperty>
+      <cena waluta="zł" xmlns="http://tempuri.org/NumericalTypesNamespace">25</cena>
+      <cenaProperty>25</cenaProperty>
+      <gatunek>punk-rock</gatunek>
+      <utwory nazwa="Lista utworów">
+        <lista>
+          <utwór>
+            <tytułUtworu>Pretty Fly (for a White Guy)</tytułUtworu>
+            <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:08</czasTrwania>
+          </utwór>
+          <utwór>
+            <tytułUtworu>The Kids Aren’t Alright</tytułUtworu>
+            <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:00</czasTrwania>
+          </utwór>
+          <utwór>
+            <tytułUtworu>Americana</tytułUtworu>
+            <czasTrwania xmlns="http://tempuri.org/NumericalTypesNamespace">3:15</czasTrwania>
+          </utwór>
+        </lista>
+      </utwory>
+      <utworyProperty>Pretty Fly (for a White Guy),The Kids Aren’t Alright,Americana,</utworyProperty>
     </płyta>
   </zbiór>
 </płytoteka>

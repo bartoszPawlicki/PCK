@@ -57,7 +57,7 @@ namespace Pkck5
 
         public void SaveCopy(płytoteka płytoteka)
         {
-            FileInfo tmp = new FileInfo("XmlCopy.xml");
+            FileInfo tmp = new FileInfo("Dokumenty//XmlCopy.xml");
 
             if (tmp.Exists) tmp.Delete();
 
@@ -111,7 +111,7 @@ namespace Pkck5
                 SaveCopy(płytoteka);
 
                 XmlDocument xmld = new XmlDocument();
-                string xmlText = File.ReadAllText("XmlCopy.xml");
+                string xmlText = File.ReadAllText("Dokumenty//XmlCopy.xml");
                 xmld.LoadXml(xmlText);
                 xmld.Schemas.Add("http://tempuri.org/HeaderNamespace", SchemaFile[0].FullName);
                 xmld.Schemas.Add("http://tempuri.org/NumericalTypesNamespace", SchemaFile[1].FullName);

@@ -8,7 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Xml.Serialization;
 
 // 
@@ -343,7 +345,7 @@ public partial class płyta {
     }
     
     /// <uwagi/>
-    [System.Xml.Serialization.XmlElementAttribute(Namespace="http://tempuri.org/NumericalTypesNamespace")]
+    [System.Xml.Serialization.XmlElementAttribute(Namespace = "http://tempuri.org/NumericalTypesNamespace")]
     public decimal liczbaUtworów {
         get {
             return this.liczbaUtworówField;
@@ -363,6 +365,18 @@ public partial class płyta {
             this.dataWydaniaField = value;
         }
     }
+    [XmlIgnore]
+    public string dataWydaniaProperty
+    {
+        get
+        {
+            return this.dataWydaniaField.ToShortDateString();
+        }
+        set
+        {
+            this.dataWydaniaField = Convert.ToDateTime(value);
+        }
+    }
     
     /// <uwagi/>
     [System.Xml.Serialization.XmlElementAttribute(Namespace="http://tempuri.org/NumericalTypesNamespace")]
@@ -372,6 +386,16 @@ public partial class płyta {
         }
         set {
             this.cenaField = value;
+        }
+    }
+    [XmlIgnore]
+    public string cenaProperty
+    {
+        get {
+            return this.cenaField.Value.ToString();
+        }
+        set {
+            this.cenaField.Value = float.Parse(value);
         }
     }
     
@@ -392,6 +416,30 @@ public partial class płyta {
         }
         set {
             this.utworyField = value;
+        }
+    }
+    [XmlIgnore]
+    public string utworyProperty
+    {
+        get
+        {
+            string f = null;
+            foreach (var item in this.utworyField.lista)
+            {
+                f += item.tytułUtworu + ",";
+            }
+            return f;
+        }
+        set
+        {
+            List<string> names = value.Split(',').ToList<string>();
+            names.Reverse();
+            int i = 0;
+            foreach (var item in utworyField.lista)
+            {
+                item.tytułUtworu = names.ElementAt(i);
+                i++;
+            }
         }
     }
 }
@@ -476,7 +524,7 @@ public partial class utwór {
     
     /// <uwagi/>
     [System.Xml.Serialization.XmlAttributeAttribute()]
-    [System.ComponentModel.DefaultValueAttribute(utwórCodec.mp3)]
+    //[System.ComponentModel.DefaultValueAttribute(utwórCodec.mp3)]
     public utwórCodec codec {
         get {
             return this.codecField;
@@ -488,7 +536,7 @@ public partial class utwór {
     
     /// <uwagi/>
     [System.Xml.Serialization.XmlAttributeAttribute()]
-    [System.ComponentModel.DefaultValueAttribute(typeof(short), "320")]
+    //[System.ComponentModel.DefaultValueAttribute(typeof(short), "320")]
     public short bitrate {
         get {
             return this.bitrateField;

@@ -12,3 +12,4 @@ C:\Users\Piotrek\Desktop\Studia\PCK\Pkck5\Pkck5\obj\Debug\Pkck5.Properties.Resou
 C:\Users\Piotrek\Desktop\Studia\PCK\Pkck5\Pkck5\obj\Debug\Pkck5.csproj.GenerateResource.Cache
 C:\Users\Piotrek\Desktop\Studia\PCK\Pkck5\Pkck5\obj\Debug\Pkck5.exe
 C:\Users\Piotrek\Desktop\Studia\PCK\Pkck5\Pkck5\obj\Debug\Pkck5.pdb
+C:\Users\Piotrek\Desktop\Studia\PCK\Pkck5\Pkck5\obj\Debug\Pkck5.csprojResolveAssemblyReference.cache
