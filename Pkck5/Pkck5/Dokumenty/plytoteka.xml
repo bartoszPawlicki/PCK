@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- <!DOCTYPE płytoteka SYSTEM "dtdfile.dtd"> /!-->
+
+<?xml-stylesheet type="text/css" href="style.css" ?>
+
+<default:płytoteka xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="http://tempuri.org/OurNamespace OurNamespace.xsd"
+		   xmlns:default="http://tempuri.org/OurNamespace"
+       xmlns:hn="http://tempuri.org/HeaderNamespace"
+       xmlns:ntn="http://tempuri.org/NumericalTypesNamespace">
+
+  <hn:nagłówek>
+    <hn:autor id="a1">
+      <hn:imię>Bartosz</hn:imię>
+        <hn:nazwisko>Pawlicki</hn:nazwisko>
+          <ntn:nrIndeksu>195678</ntn:nrIndeksu>
+    </hn:autor>
+    <hn:autor id="a2">
+      <hn:imię>Piotr</hn:imię>
+        <hn:nazwisko>Adryjańczyk</hn:nazwisko>
+          <ntn:nrIndeksu>195555</ntn:nrIndeksu>
+    </hn:autor>
+    <hn:opis> Zadanie 3 - Transformacje z użyciem XSLT, cz.1 (XML, XHTML) </hn:opis>
+    <hn:dataAktualizacji> 2016-12-11 </hn:dataAktualizacji>
+	<hn:klucz>195555</hn:klucz>
+  </hn:nagłówek>
+
+  <default:zbiór nazwa="ZBIÓR PŁYT">
+    <default:płyta>
+      <default:tytuł> L.A. Woman </default:tytuł>
+      <default:wykonawca>The Doors</default:wykonawca>
+      <ntn:liczbaUtworów> 10 </ntn:liczbaUtworów>
+      <default:dataWydania> 1971-05-24 </default:dataWydania>
+      <ntn:cena waluta="zł">45</ntn:cena>
+      <default:gatunek>rock</default:gatunek>
+      <default:utwory nazwa= "Lista utworów">
+        <default:lista>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>The Changeling</default:tytułUtworu>
+            <ntn:czasTrwania>4:21</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>Love Her Madly</default:tytułUtworu>
+            <ntn:czasTrwania>3:20</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>Riders on the Storm</default:tytułUtworu>
+            <ntn:czasTrwania>7:09</ntn:czasTrwania>
+          </default:utwór>
+        </default:lista>
+      </default:utwory>
+    </default:płyta>
+
+    <default:płyta>
+      <default:tytuł> The Poison </default:tytuł>
+      <default:wykonawca>Bullet For My Valentine</default:wykonawca>
+      <ntn:liczbaUtworów> 13 </ntn:liczbaUtworów>
+      <default:dataWydania> 2005-10-03 </default:dataWydania>
+      <ntn:cena waluta="zł">33.33</ntn:cena>
+      <default:gatunek>metalcore</default:gatunek>
+      <default:utwory nazwa= "Lista utworów">
+        <default:lista>
+          <default:utwór codec="flac" bitrate="320">
+            <default:tytułUtworu>4 Words (To Choke Upon)</default:tytułUtworu>
+            <ntn:czasTrwania>2:43</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="flac" bitrate="320">
+            <default:tytułUtworu>Tears Don't Fall</default:tytułUtworu>
+            <ntn:czasTrwania>5:48</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="flac" bitrate="320">
+            <default:tytułUtworu>All These Things I Hate</default:tytułUtworu>
+            <ntn:czasTrwania>3:45</ntn:czasTrwania>
+          </default:utwór>
+        </default:lista>
+      </default:utwory>
+    </default:płyta>
+
+    <default:płyta>
+      <default:tytuł> VanillaHaj$ </default:tytuł>
+      <default:wykonawca> TEDE </default:wykonawca>
+      <ntn:liczbaUtworów> 16 </ntn:liczbaUtworów>
+      <default:dataWydania> 2016-04-23 </default:dataWydania>
+      <ntn:cena waluta="zł">38</ntn:cena>
+      <default:gatunek>rap</default:gatunek>
+      <default:utwory nazwa= "Lista utworów">
+        <default:lista>
+          <default:utwór codec="ogg" bitrate="320">
+            <default:tytułUtworu>Vanillalalahajs</default:tytułUtworu>
+            <ntn:czasTrwania>3:04</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="ogg" bitrate="320">
+            <default:tytułUtworu>Vanilla Ice</default:tytułUtworu>
+            <ntn:czasTrwania>4:22</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="ogg" bitrate="320">
+            <default:tytułUtworu>Dyskretny chłód 2</default:tytułUtworu>
+            <ntn:czasTrwania>3:56</ntn:czasTrwania>
+          </default:utwór>
+        </default:lista>
+      </default:utwory>
+    </default:płyta>
+
+    <default:płyta>
+      <default:tytuł>Orchid</default:tytuł>
+      <default:wykonawca>Opeth</default:wykonawca>
+      <ntn:liczbaUtworów> 7 </ntn:liczbaUtworów>
+      <default:dataWydania> 1995-05-01 </default:dataWydania>
+      <ntn:cena waluta="euro">29.99</ntn:cena>
+      <default:gatunek>progressive-death-metal</default:gatunek>
+      <default:utwory nazwa= "Lista utworów">
+        <default:lista>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>In Mist She Was Standing</default:tytułUtworu>
+            <ntn:czasTrwania>14:09</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>Under the Weeping Moon</default:tytułUtworu>
+            <ntn:czasTrwania>9:55</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>Silhouette</default:tytułUtworu>
+            <ntn:czasTrwania>3:04</ntn:czasTrwania>
+          </default:utwór>
+        </default:lista>
+      </default:utwory>
+    </default:płyta>
+
+    <default:płyta>
+      <default:tytuł>Smash</default:tytuł>
+      <default:wykonawca>The Offspring</default:wykonawca>
+      <ntn:liczbaUtworów> 14 </ntn:liczbaUtworów>
+      <default:dataWydania> 1994-04-08 </default:dataWydania>
+      <ntn:cena waluta="zł">50.00</ntn:cena>
+      <default:gatunek>punk-rock</default:gatunek>
+      <default:utwory nazwa= "Lista utworów">
+        <default:lista>
+          <default:utwór codec="mp3" bitrate="252">
+            <default:tytułUtworu>Self Esteem</default:tytułUtworu>
+            <ntn:czasTrwania>4:17</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="mp3" bitrate="252">
+            <default:tytułUtworu>Come Out and Play</default:tytułUtworu>
+            <ntn:czasTrwania>3:17</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="mp3" bitrate="252">
+            <default:tytułUtworu>Nitro (Youth Energy)</default:tytułUtworu>
+            <ntn:czasTrwania>2:27</ntn:czasTrwania>
+          </default:utwór>
+        </default:lista>
+      </default:utwory>
+    </default:płyta>
+    <default:płyta>
+      <default:tytuł>Americana</default:tytuł>
+      <default:wykonawca>The Offspring</default:wykonawca>
+      <ntn:liczbaUtworów> 13 </ntn:liczbaUtworów>
+      <default:dataWydania> 2005-01-08 </default:dataWydania>
+      <ntn:cena waluta="zł">25.00</ntn:cena>
+      <default:gatunek>punk-rock</default:gatunek>
+      <default:utwory nazwa= "Lista utworów">
+        <default:lista>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>Pretty Fly (for a White Guy)</default:tytułUtworu>
+            <ntn:czasTrwania>3:08</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>The Kids Aren’t Alright</default:tytułUtworu>
+            <ntn:czasTrwania>3:00</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>Americana</default:tytułUtworu>
+            <ntn:czasTrwania>3:15</ntn:czasTrwania>
+          </default:utwór>
+        </default:lista>
+      </default:utwory>
+    </default:płyta>
+    <default:płyta>
+      <default:tytuł>Americana</default:tytuł>
+      <default:wykonawca>The Offspring</default:wykonawca>
+      <ntn:liczbaUtworów> 13 </ntn:liczbaUtworów>
+      <default:dataWydania> 2005-01-08 </default:dataWydania>
+      <ntn:cena waluta="zł">25.00</ntn:cena>
+      <default:gatunek>punk-rock</default:gatunek>
+      <default:utwory nazwa= "Lista utworów">
+        <default:lista>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>Pretty Fly (for a White Guy)</default:tytułUtworu>
+            <ntn:czasTrwania>3:08</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>The Kids Aren’t Alright</default:tytułUtworu>
+            <ntn:czasTrwania>3:00</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>Americana</default:tytułUtworu>
+            <ntn:czasTrwania>3:15</ntn:czasTrwania>
+          </default:utwór>
+        </default:lista>
+      </default:utwory>
+    </default:płyta>
+    <default:płyta>
+      <default:tytuł>Americana</default:tytuł>
+      <default:wykonawca>The Offspring</default:wykonawca>
+      <ntn:liczbaUtworów> 13 </ntn:liczbaUtworów>
+      <default:dataWydania> 2005-01-08 </default:dataWydania>
+      <ntn:cena waluta="zł">25.00</ntn:cena>
+      <default:gatunek>punk-rock</default:gatunek>
+      <default:utwory nazwa= "Lista utworów">
+        <default:lista>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>Pretty Fly (for a White Guy)</default:tytułUtworu>
+            <ntn:czasTrwania>3:08</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>The Kids Aren’t Alright</default:tytułUtworu>
+            <ntn:czasTrwania>3:00</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>Americana</default:tytułUtworu>
+            <ntn:czasTrwania>3:15</ntn:czasTrwania>
+          </default:utwór>
+        </default:lista>
+      </default:utwory>
+    </default:płyta>
+    <default:płyta>
+      <default:tytuł>Americana</default:tytuł>
+      <default:wykonawca>The Offspring</default:wykonawca>
+      <ntn:liczbaUtworów> 13 </ntn:liczbaUtworów>
+      <default:dataWydania> 2005-01-08 </default:dataWydania>
+      <ntn:cena waluta="zł">25.00</ntn:cena>
+      <default:gatunek>punk-rock</default:gatunek>
+      <default:utwory nazwa= "Lista utworów">
+        <default:lista>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>Pretty Fly (for a White Guy)</default:tytułUtworu>
+            <ntn:czasTrwania>3:08</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>The Kids Aren’t Alright</default:tytułUtworu>
+            <ntn:czasTrwania>3:00</ntn:czasTrwania>
+          </default:utwór>
+          <default:utwór codec="mp3" bitrate="320">
+            <default:tytułUtworu>Americana</default:tytułUtworu>
+            <ntn:czasTrwania>3:15</ntn:czasTrwania>
+          </default:utwór>
+        </default:lista>
+      </default:utwory>
+    </default:płyta>
+  </default:zbiór>
+</default:płytoteka>
