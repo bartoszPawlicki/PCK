@@ -30,15 +30,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		<xsl:text>&#10;</xsl:text>
 		<xsl:text>&#10;</xsl:text>
 		
-		<xsl:value-of select="concat('Łączna liczba gatunków: ', $odstęp, $odstęp, dokumentPomocniczy/podsumowanie/liczbaGatunków)"/>
+		<xsl:value-of select="concat('Łączna liczba gatunków:  ', $odstęp, $odstęp, dokumentPomocniczy/podsumowanie/liczbaGatunków)"/>
 		<xsl:text>&#10;</xsl:text>
-		<xsl:value-of select="concat('Łączna cena wszystkich płyt: ', $odstęp, $odstęp, dokumentPomocniczy/podsumowanie/łącznaCenaPłyt), 'ZŁ'"/>
+		<xsl:value-of select="concat('Łączna cena wszystkich płyt:      ', $odstęp, dokumentPomocniczy/podsumowanie/łącznaCenaPłyt), 'ZŁ'"/>
 		<xsl:text>&#10;</xsl:text>
-		<xsl:value-of select="concat('VAT (od całości) 23%:  ', $odstęp, $odstęp, dokumentPomocniczy/podsumowanie/VAT)"/>
+		<xsl:value-of select="concat('VAT (od całości) 23%:    ', $odstęp, $odstęp, dokumentPomocniczy/podsumowanie/VAT)"/>
 		<xsl:text>&#10;</xsl:text>
-		<xsl:value-of select="concat('Łączna ilość wszystkich płyt:      ',  $odstęp, dokumentPomocniczy/podsumowanie/łącznaIlośćPłyt)"/>
+		<xsl:value-of select="concat('Łączna ilość wszystkich płyt:     ',  $odstęp, dokumentPomocniczy/podsumowanie/łącznaIlośćPłyt)"/>
 		<xsl:text>&#10;</xsl:text>
-		<xsl:value-of select="concat('Data wygenerowania raportu:  ', $odstęp, $odstęp, dokumentPomocniczy/podsumowanie/dataWygenerowania)"/>	
+		<xsl:value-of select="concat('Data wygenerowania raportu:       ', $odstęp, dokumentPomocniczy/podsumowanie/dataWygenerowania)"/>	
 		
   </xsl:template>
 </xsl:stylesheet>

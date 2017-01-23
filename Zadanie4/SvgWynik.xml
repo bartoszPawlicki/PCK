@@ -151,8 +151,8 @@ function MouseOut(evt)
                         begin="0s"
                         dur="5s"
                         type="rotate"
-                        from="0 690 420"
-                        to="360 690  420 "
+                        from="360 690 420"
+                        to="0 690  420 "
                         repeatCount="indefinite"/>
    </rect>
    <text x="680"

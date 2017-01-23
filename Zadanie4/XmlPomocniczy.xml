@@ -4,7 +4,7 @@
    <spisPłyt>
       <płyta>
          <nr>1</nr>
-         <tytuł> The Poison </tytuł>
+         <tytuł>The Poison </tytuł>
          <gatunek>metalcore</gatunek>
          <dataWydania> 2005-10-03 </dataWydania>
          <wykonawca>Bullet For My Valentine</wykonawca>
@@ -60,7 +60,7 @@
       </płyta>
       <płyta>
          <nr>8</nr>
-         <tytuł> VanillaHaj$ </tytuł>
+         <tytuł>VanillaHaj$ </tytuł>
          <gatunek>rap</gatunek>
          <dataWydania> 2016-04-23 </dataWydania>
          <wykonawca> TEDE </wykonawca>
@@ -68,7 +68,7 @@
       </płyta>
       <płyta>
          <nr>9</nr>
-         <tytuł> L.A. Woman </tytuł>
+         <tytuł>L.A. Woman </tytuł>
          <gatunek>rock</gatunek>
          <dataWydania> 1971-05-24 </dataWydania>
          <wykonawca>The Doors</wykonawca>

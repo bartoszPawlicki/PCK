@@ -1,6 +1,6 @@
 Spis p³yt
 
-Tytu³                                       The Poison 
+Tytu³                                      The Poison 
 Gatunek                                    metalcore
 Data wydania                               2005-10-03 
 Wykonawca                                  Bullet For My Valentine
@@ -49,14 +49,14 @@ Wykonawca                                  The Offspring
 Cena                                       25.00 z³
 Waluta                                     
 
-Tytu³                                       VanillaHaj$ 
+Tytu³                                      VanillaHaj$ 
 Gatunek                                    rap
 Data wydania                               2016-04-23 
 Wykonawca                                   TEDE 
 Cena                                       38 z³
 Waluta                                     
 
-Tytu³                                       L.A. Woman 
+Tytu³                                      L.A. Woman 
 Gatunek                                    rock
 Data wydania                               1971-05-24 
 Wykonawca                                  The Doors
@@ -65,8 +65,8 @@ Waluta
 
 Podsumowanie
 
-£¹czna liczba gatunków:                   5
-£¹czna cena wszystkich p³yt:                   296,32 Z£
-VAT (od ca³oœci) 23%:                    68,1536
-£¹czna iloœæ wszystkich p³yt:               9
-Data wygenerowania raportu:                    2016-12-11T23:46:01.258Z
+£¹czna liczba gatunków:                    5
+£¹czna cena wszystkich p³yt:               296,32 Z£
+VAT (od ca³oœci) 23%:                      68,1536
+£¹czna iloœæ wszystkich p³yt:              9
+Data wygenerowania raportu:                2016-12-11T23:46:01.258Z

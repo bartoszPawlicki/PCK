@@ -102,8 +102,8 @@ function MouseOut(evt)
             begin="0s"
             dur="5s"
             type="rotate"
-            from="0 690 {450 - $iloscRock*30}"
-            to="360 690  {450 - $iloscRock*30} "
+            from="360 690 {450 - $iloscRock*30}"
+            to="0 690  {450 - $iloscRock*30} "
             repeatCount="indefinite" />
       </rect>
       <text x="680" y="{430 - $iloscRock*60}" font-size="20" fill="black" visibility="hidden">
